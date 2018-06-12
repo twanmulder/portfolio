@@ -1,0 +1,33 @@
+{
+  "name": "justin-chi-portfolio",
+  "description": "Justin's Portfolio",
+  "version": "1.0.0",
+  "author": "Justin Chi",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "prettier": "prettier --write 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "anchorate": "1.2.3",
+    "eslint": "4.19.1",
+    "eslint-plugin-prettier": "2.6.0",
+    "gatsby": "1.9.269",
+    "gatsby-link": "1.6.44",
+    "gatsby-plugin-favicon": "2.1.1",
+    "gatsby-plugin-google-analytics": "1.0.31",
+    "gatsby-plugin-react-helmet": "2.0.11",
+    "gatsby-plugin-sass": "1.0.26",
+    "prettier": "1.13.4",
+    "react-helmet": "5.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "1.1.8",
+    "@fortawesome/fontawesome-free-brands": "5.0.13",
+    "@fortawesome/fontawesome-free-solid": "5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.20",
+    "react-scrollchor": "5.1.0"
+  }
+}
