@@ -1,30 +1,30 @@
 export default [
   {
-    input: 'Justin.currentLocation',
-    return: '"San Jose, CA"',
+    input: 'Twan.currentLocation',
+    return: '"Groningen, NL"',
   },
   {
-    input: 'Justin.contactInfo',
+    input: 'Twan.contactInfo',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jengelstengel">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Twan.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/Twan_resume.pdf" target="_blank">Twan_resume.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "starcraft"]',
+    input: 'Twan.interests',
+    return: '["UI/UX dev", "guitar", "craft beer", "volleyball"]',
   },
   {
-    input: 'Justin.education',
+    input: 'Twan.education',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"B.Sc. Interactive Media & Technologies - Hanze University of Applied Sciences, Groningen"',
   },
   {
-    input: 'Justin.skills',
+    input: 'Twan.skills',
     return:
-      '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]',
+      '["Sass", "JavaScript", "React", "Redux", "git"]',
   },
 ];

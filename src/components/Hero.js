@@ -10,9 +10,9 @@ class Hero extends React.PureComponent {
   render() {
     return (
       <div className="hero-container">
-        <Typewriter className="hero-title" text="Justin Chi" />
+        <Typewriter className="hero-title" text="Twan Mulder" />
         <div className="hero-description">
-          I am a web developer at MemSQL. My passion is building simple,
+          I am a self employed web-developer. My passion is building simple,
           beautiful user experiences.<br />Check out my{' '}
           <Scrollchor to="#projects">side-projects</Scrollchor> below.
         </div>

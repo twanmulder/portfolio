@@ -5,6 +5,7 @@ import wakeybackgrounds from 'images/wakeybackgrounds.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
 import tomsmetal from 'images/tomsmetal.jpg';
+import anytime from 'images/anytime.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
@@ -21,11 +22,11 @@ export default [
     },
   },
   {
-    title: 'Chart the Stock Market',
+    title: 'Anytime.rs',
     description:
-      'This project is based off this <a href="https://www.freecodecamp.com/challenges/chart-the-stock-market">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://developer.tradier.com/documentation">Tradier API</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
-    image: stockmarketchart,
+      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.',
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
+    image: anytime,
     links: {
       github: 'https://github.com/vai0/stockmarketchart',
       preview: 'https://stock.justinchi.me/',

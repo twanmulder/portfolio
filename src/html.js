@@ -35,14 +35,14 @@ class Html extends Component {
 
           <meta name="referrer" content="origin" />
           <meta charSet="utf-8" />
-          <meta name="description" content="Justin Chi's Portfolio" />
+          <meta name="description" content="Twan Mulder's Portfolio" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
           <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-          <title>Justin's Portfolio</title>
+          <title>Twan's Portfolio</title>
           {css}
         </head>
         <body>
