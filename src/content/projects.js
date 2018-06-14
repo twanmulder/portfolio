@@ -6,19 +6,21 @@ import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
 import tomsmetal from 'images/tomsmetal.jpg';
 import anytime from 'images/anytime.png';
+import neroa from 'images/neroa.png';
+import potetos from 'images/potetos.png'
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
   {
-    title: 'Travlr',
+    title: 'AEC',
     description:
-      'Travel smarter by saving the places you want to go. This project was an assignment given for an interview. The requirements were to build a web-app that calls the Google Places API. It must include a map with pins and a list of locations, with some interactivity between the two.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS', 'Redux'],
-    image: travlr,
+      'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electriciity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'NodeJS', 'Spring'],
+    image: neroa,
     links: {
-      github: 'https://github.com/vai0/travlr',
-      preview: 'https://travlr.justinchi.me/',
+      github: 'https://github.com/vRzn/AEC_frontend',
+      preview: 'https://aec.neroa-power.com/',
     },
   },
   {
@@ -33,19 +35,17 @@ export default [
     },
   },
   {
-    title: 'Wakey Alarm Clock',
+    title: 'VV Potetos',
     description:
-      'My first major app built with ReactJS and it was a tremendous learning experience. This project was created for a good friend - check out her <a href="http://www.xiaotongyuchi.com/wakeyalarm">mock-up</a>! Polymer components were taken directly from Google spec to ensure smooth animations on mobile (this was before Material Components existed).',
+      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website.',
     skills: [
       'HTML5',
       'CSS3',
-      'Sass',
       'JavaScript',
-      'ReactJS',
-      'Polymer',
-      'Material Design',
+      'Usability Testing',
+      'PHP'
     ],
-    image: wakeyalarmclock,
+    image: potetos,
     links: {
       github: 'https://github.com/vai0/alarmclock',
       preview: 'https://alarmclock.justinchi.me/',
@@ -89,17 +89,6 @@ export default [
     links: {
       github: 'https://github.com/vai0/portfolio',
       preview: 'https://www.justinchi.me/',
-    },
-  },
-  {
-    title: "Tom's Metal Site",
-    description:
-      'A revamped version of the website of the company at my first job. You can see the original site <a href="http://www.tomsmetal.com/">here</a>. The site supports mobile, tablet, and desktop sizes. Media queries only - no external libraries or JavaScript.',
-    skills: ['HTML5', 'CSS3'],
-    image: tomsmetal,
-    links: {
-      github: 'https://github.com/vai0/tomsmetal_site',
-      preview: 'https://tomsmetal.justinchi.me/',
     },
   },
 ];
