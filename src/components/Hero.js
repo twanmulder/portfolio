@@ -14,7 +14,7 @@ class Hero extends React.PureComponent {
         <div className="hero-description">
           I am a self employed web-developer. My passion is building simple,
           beautiful user experiences.<br />Check out my{' '}
-          <Scrollchor to="#projects">side-projects</Scrollchor> below.
+          <Scrollchor to="#projects">projects</Scrollchor> below.
         </div>
       </div>
     );

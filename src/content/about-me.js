@@ -15,7 +15,7 @@ export default [
   },
   {
     input: 'Twan.interests',
-    return: '["UI/UX dev", "guitar", "craft beer", "volleyball"]',
+    return: '["UI/UX dev", "guitar", "fashion", "gym"]',
   },
   {
     input: 'Twan.education',

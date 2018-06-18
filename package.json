@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "twan-mulder-portfolio",
+  "description": "Twan's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Twan Mulder",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

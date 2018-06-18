@@ -1,10 +1,4 @@
-import travlr from 'images/travlr.jpg';
-import stockmarketchart from 'images/stockmarketchart.jpg';
-import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
-import wakeybackgrounds from 'images/wakeybackgrounds.png';
-import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
-import tomsmetal from 'images/tomsmetal.jpg';
 import anytime from 'images/anytime.png';
 import neroa from 'images/neroa.png';
 import potetos from 'images/potetos.png'
@@ -30,8 +24,8 @@ export default [
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
     image: anytime,
     links: {
-      github: 'https://github.com/vai0/stockmarketchart',
-      preview: 'https://stock.justinchi.me/',
+      github: 'https://github.com/jengelstengel/anytimers',
+      preview: 'https://anytime.rs/',
     },
   },
   {
@@ -39,45 +33,16 @@ export default [
     description:
       'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website.',
     skills: [
+      'PHP',
       'HTML5',
       'CSS3',
       'JavaScript',
-      'Usability Testing',
-      'PHP'
+      'Usability Testing'
     ],
     image: potetos,
     links: {
-      github: 'https://github.com/vai0/alarmclock',
-      preview: 'https://alarmclock.justinchi.me/',
-    },
-  },
-  {
-    title: 'Wakey Weather Backgrounds',
-    description:
-      'Animated backgrounds for when the alarm is triggered in the <a href="https://justinchi.me/alarmclock/">Wakey Alarm Clock</a> app. CSS animations and a bit of JavaScript for the snow and rain. No external libraries.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
-    image: wakeybackgrounds,
-    links: {
-      github: 'https://github.com/vai0/weather-animations',
-      preview: 'https://weather-anim.justinchi.me/',
-    },
-  },
-  {
-    title: 'Google Calculator',
-    description:
-      'Applied techniques learned from <a href="https://watchandcode.com/p/practical-javascript">Practical Javascript</a> - writing requirements, iterating, and structuring app as an MVC. This really helped me build a much better foundation in JavaScript for web development. Aside from the Material Components library for the ripples, no frameworks were used. Design is based off the original <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en">Google Calculator on Android</a>.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Sass',
-      'JavaScript',
-      'ES6',
-      'Material Components',
-    ],
-    image: calculator,
-    links: {
-      github: 'https://github.com/vai0/material_calculator',
-      preview: 'https://calc.justinchi.me/',
+      github: 'https://github.com/jengelstengel/vvpotetos',
+      preview: 'https://vvpotetos.nl/',
     },
   },
   {
@@ -87,8 +52,8 @@ export default [
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
     image: portfolio,
     links: {
-      github: 'https://github.com/vai0/portfolio',
-      preview: 'https://www.justinchi.me/',
+      github: 'https://github.com/jengelstengel/portfolio',
+      preview: 'https://www.twanmulder.com/',
     },
   },
 ];
