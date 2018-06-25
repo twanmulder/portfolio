@@ -19,7 +19,8 @@
     }
 
     .project-image {
-      width: 80%;
+      width: auto;
+      height: 100%;
       position: absolute !important; // overide gatsby-image style
       top: 0;
       left: 0;

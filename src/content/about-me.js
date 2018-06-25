@@ -25,6 +25,6 @@ export default [
   {
     input: 'Twan.skills',
     return:
-      '["Sass", "JavaScript", "React", "Redux", "git"]',
+      '["Sass", "JavaScript", "ReactJS", "Node.JS", "git", "ES6"]',
   },
 ];

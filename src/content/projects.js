@@ -2,6 +2,7 @@ import portfolio from 'images/portfolio.png';
 import anytime from 'images/anytime.png';
 import neroa from 'images/neroa.png';
 import potetos from 'images/potetos.png'
+import reactcoin from 'images/reactcoin.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
@@ -15,6 +16,17 @@ export default [
     links: {
       github: 'https://github.com/vRzn/AEC_frontend',
       preview: 'https://aec.neroa-power.com/',
+    },
+  },
+  {
+    title: 'React Coin',
+    description:
+      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'ES6'],
+    image: reactcoin,
+    links: {
+      github: 'https://github.com/jengelstengel/React-coin',
+      preview: 'https://twan-react-coin.herokuapp.com/',
     },
   },
   {
