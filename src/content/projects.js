@@ -13,6 +13,7 @@ export default [
       'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electriciity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'NodeJS', 'Spring'],
     image: neroa,
+    alt: 'Neroa',
     links: {
       preview: 'https://aec.neroa-power.com/',
     },
@@ -23,6 +24,7 @@ export default [
       'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing.',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'ES6'],
     image: reactcoin,
+    alt: 'React-Coin',
     links: {
       github: 'https://github.com/jengelstengel/React-coin',
       preview: 'https://twan-react-coin.herokuapp.com/',
@@ -34,6 +36,7 @@ export default [
       'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
     image: anytime,
+    alt: 'Anytime.rs',
     links: {
       github: 'https://github.com/jengelstengel/anytimers',
       preview: 'https://anytime.rs/',
@@ -51,6 +54,7 @@ export default [
       'Usability Testing'
     ],
     image: potetos,
+    alt: 'VV Potetos',
     links: {
       github: 'https://github.com/jengelstengel/vvpotetos',
       preview: 'https://vvpotetos.nl/',
@@ -62,6 +66,7 @@ export default [
       'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
     image: portfolio,
+    alt: 'Portfolio',
     links: {
       github: 'https://github.com/jengelstengel/portfolio',
       preview: 'https://www.twanmulder.com/',
