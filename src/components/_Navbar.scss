@@ -29,12 +29,12 @@
         display: block;
         position: absolute;
         left: 0;
-        bottom: -30px;
+        bottom: -5px;
         width: 0;
-        height: 8px;
+        height: 2px;
         background-color: $purple;
         content: '';
-        transition: width 0.15s;
+        transition: width 0.2s;
       }
 
       &:hover {
