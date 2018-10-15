@@ -12,7 +12,7 @@ class ProjectSkills extends React.PureComponent {
     return (
       <div className="project-skills">
         {this.props.skills.map((skill, index) => {
-          return <ProjectSkill skill={skill} key={index} />;
+          return <ProjectSkill skill={skill} key={index}/>;
         })}
       </div>
     );
