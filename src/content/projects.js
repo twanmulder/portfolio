@@ -1,8 +1,8 @@
-import portfolio from 'images/portfolio.png';
-import anytime from 'images/anytime.png';
-import neroa from 'images/neroa.png';
-import potetos from 'images/potetos.png'
-import reactcoin from 'images/reactcoin.png';
+import portfolio from 'images/portfolio.webp';
+import anytime from 'images/anytime.webp';
+import neroa from 'images/neroa.webp';
+import potetos from 'images/potetos.webp'
+import reactcoin from 'images/reactcoin.webp';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
