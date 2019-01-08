@@ -1,5 +1,6 @@
 import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import Lazyload from 'react-lazyload';
 
 class ProjectSkill extends React.PureComponent {
   render() {
