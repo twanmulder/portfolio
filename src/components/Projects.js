@@ -1,6 +1,6 @@
 import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import Lazyload from 'react-lazyload';
+import LazyLoad from 'react-lazyload';
 
 class ProjectSkill extends React.PureComponent {
   render() {
@@ -52,7 +52,9 @@ class ProjectCard extends React.PureComponent {
 
     return (
       <div className="project-card">
-        <img className="project-image" src={image} alt={alt}/>
+        <LazyLoad height={100} offset={100}>
+          <img className="project-image" src={image} alt={alt}/>
+        </LazyLoad>
         <div className="project-background" />
         <div className="project-content">
           <h3>{title}</h3>
