@@ -3,6 +3,8 @@ import anytime from 'images/anytime.webp';
 import neroa from 'images/neroa.webp';
 import potetos from 'images/potetos.webp'
 import reactcoin from 'images/reactcoin.webp';
+import universe from 'images/universe.webp';
+import cssdoodle from 'images/cssdoodle.webp';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
@@ -21,8 +23,8 @@ export default [
   {
     title: 'React Coin',
     description:
-      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'ES6'],
+      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing. It is deployed on Heroku.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'Heroku'],
     image: reactcoin,
     alt: 'React-Coin',
     links: {
@@ -58,6 +60,37 @@ export default [
     links: {
       github: 'https://github.com/jengelstengel/vvpotetos',
       preview: 'https://vvpotetos.nl/',
+    },
+  },
+  {
+    title: 'CSS Doodle',
+    description:
+      'CSS Doodle is a web component which can be used to draw patterns inside of HTML without the use of any CSS files. For this doodle I set a grid and shape, after which I animated them and based the colour of the circles on the position inside the grid.',
+    skills: [
+      'HTML5',
+      'CSS3',
+      'CSS Doodle'
+    ],
+    image: cssdoodle,
+    alt: 'CSS Doodle',
+    links: {
+      github: 'https://github.com/jengelstengel/doodle-testing',
+      preview: 'https://stupefied-mclean-e5b35e.netlify.com/',
+    },
+  },
+  {
+    title: 'Parallax Starry Universe',
+    description:
+      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the CSS property &#39;perspective&#39; to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
+    skills: [
+      'HTML5',
+      'CSS3',
+    ],
+    image: universe,
+    alt: 'Parallax starry Universe',
+    links: {
+      github: 'https://github.com/jengelstengel/starry-universe',
+      preview: 'https://xenodochial-curran-eeac49.netlify.com/',
     },
   },
   {
