@@ -23,8 +23,8 @@ export default [
   {
     title: 'React Coin',
     description:
-      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'ES6'],
+      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing. It is deployed on Heroku.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'Heroku'],
     image: reactcoin,
     alt: 'React-Coin',
     links: {
@@ -65,7 +65,7 @@ export default [
   {
     title: 'CSS Doodle',
     description:
-      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website.',
+      'CSS Doodle is a web component which can be used to draw patterns inside of HTML without the use of any CSS files. For this doodle I set a grid and shape, after which I animated them and based the colour of the circles on the position inside the grid.',
     skills: [
       'HTML5',
       'CSS3',
@@ -81,7 +81,7 @@ export default [
   {
     title: 'Parallax Starry Universe',
     description:
-      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the perspective CSS property to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
+      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the CSS property &#39;perspective&#39; to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
     skills: [
       'HTML5',
       'CSS3',
