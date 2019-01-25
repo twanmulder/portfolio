@@ -3,6 +3,8 @@ import anytime from 'images/anytime.webp';
 import neroa from 'images/neroa.webp';
 import potetos from 'images/potetos.webp'
 import reactcoin from 'images/reactcoin.webp';
+import universe from 'images/universe.webp';
+import cssdoodle from 'images/cssdoodle.webp';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
@@ -58,6 +60,37 @@ export default [
     links: {
       github: 'https://github.com/jengelstengel/vvpotetos',
       preview: 'https://vvpotetos.nl/',
+    },
+  },
+  {
+    title: 'CSS Doodle',
+    description:
+      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website.',
+    skills: [
+      'HTML5',
+      'CSS3',
+      'CSS Doodle'
+    ],
+    image: cssdoodle,
+    alt: 'CSS Doodle',
+    links: {
+      github: 'https://github.com/jengelstengel/doodle-testing',
+      preview: 'https://stupefied-mclean-e5b35e.netlify.com/',
+    },
+  },
+  {
+    title: 'Parallax Starry Universe',
+    description:
+      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the perspective CSS property to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
+    skills: [
+      'HTML5',
+      'CSS3',
+    ],
+    image: universe,
+    alt: 'Parallax starry Universe',
+    links: {
+      github: 'https://github.com/jengelstengel/starry-universe',
+      preview: 'https://xenodochial-curran-eeac49.netlify.com/',
     },
   },
   {
