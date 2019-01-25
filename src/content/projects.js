@@ -33,15 +33,15 @@ export default [
     },
   },
   {
-    title: 'Anytime.rs',
+    title: 'Anytimers.nl',
     description:
-      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.',
+      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.<br /><br /> <span style="color:#bbb;">Still a work in progress. Website is now a placeholder!</span>',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
     image: anytime,
     alt: 'Anytime.rs',
     links: {
-      github: 'https://github.com/jengelstengel/anytimers',
-      preview: 'https://anytime.rs/',
+      github: 'https://github.com/jengelstengel/anytimers-temp',
+      preview: 'https://ecstatic-hopper-b0d9c5.netlify.com/',
     },
   },
   {
