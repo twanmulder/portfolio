@@ -10,14 +10,15 @@ import cssdoodle from 'images/cssdoodle.webp';
 
 export default [
   {
-    title: 'AEC',
+    title: 'Anytimers.nl',
     description:
-      'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electriciity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'NodeJS', 'Spring'],
-    image: neroa,
-    alt: 'Neroa',
+      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.<br /><br /> <span style="color:#bbb;">Still a work in progress. Website is a placeholder at the moment!</span>',
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
+    image: anytime,
+    alt: 'Anytime.rs',
     links: {
-      preview: 'https://aec.neroa-power.com/',
+      github: 'https://github.com/jengelstengel/anytimers-temp',
+      preview: 'https://ecstatic-hopper-b0d9c5.netlify.com/',
     },
   },
   {
@@ -33,15 +34,14 @@ export default [
     },
   },
   {
-    title: 'Anytimers.nl',
+    title: 'AEC',
     description:
-      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.<br /><br /> <span style="color:#bbb;">Still a work in progress. Website is now a placeholder!</span>',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
-    image: anytime,
-    alt: 'Anytime.rs',
+      'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electriciity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'NodeJS', 'Spring'],
+    image: neroa,
+    alt: 'Neroa',
     links: {
-      github: 'https://github.com/jengelstengel/anytimers-temp',
-      preview: 'https://ecstatic-hopper-b0d9c5.netlify.com/',
+      preview: 'https://aec.neroa-power.com/',
     },
   },
   {
