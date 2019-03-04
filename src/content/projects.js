@@ -36,7 +36,7 @@ export default [
   {
     title: 'AEC',
     description:
-      'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electriciity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+      'Neroa and I teamed up to develop an online platform for local residents of Ameland to track their electricity and gas usage. So far, this project has enrolled in 30 households and is steadily growing. This was my first time working with mutiple corporate teams, which taught me a lot about workflow and release schedules. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'NodeJS', 'Spring'],
     image: neroa,
     alt: 'Neroa',
@@ -47,7 +47,7 @@ export default [
   {
     title: 'VV Potetos',
     description:
-      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website.',
+      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website. This project was in co-op with Convident. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
     skills: [
       'PHP',
       'HTML5',
