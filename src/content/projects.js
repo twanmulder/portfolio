@@ -5,10 +5,23 @@ import potetos from 'images/potetos.webp'
 import reactcoin from 'images/reactcoin.webp';
 import universe from 'images/universe.webp';
 import cssdoodle from 'images/cssdoodle.webp';
+import stormdigital from 'images/stormdigital.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
+  {
+    title: 'Storm Digital',
+    description:
+      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaings using Google Doubleclick Studio',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
+    image: stormdigital,
+    alt: 'storm digital',
+    links: {
+      github: 'https://github.com/jengelstengel/anytimers-temp',
+      preview: 'https://www.stormdigital.nl/',
+    },
+  },
   {
     title: 'Anytimers.nl',
     description:
