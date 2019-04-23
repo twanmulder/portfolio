@@ -1,5 +1,5 @@
 import portfolio from 'images/portfolio.webp';
-import anytime from 'images/anytime.webp';
+import anytime from 'images/anytime.png';
 import neroa from 'images/neroa.webp';
 import potetos from 'images/potetos.webp'
 import reactcoin from 'images/reactcoin.webp';
@@ -13,7 +13,7 @@ export default [
   {
     title: 'Storm Digital',
     description:
-      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaings using Google Doubleclick Studio',
+      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaigns using Google Doubleclick Studio',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
     image: stormdigital,
     alt: 'storm digital',
