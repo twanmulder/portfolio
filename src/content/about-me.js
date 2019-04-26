@@ -9,13 +9,8 @@ export default [
       '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jengelstengel">github</a>"]',
   },
   {
-    input: 'Twan.resume',
-    return:
-      '"<a rel="noopener" href="/Twan_resume.pdf" target="_blank">Twan_resume.pdf</a>"',
-  },
-  {
     input: 'Twan.interests',
-    return: '["UI/UX dev", "guitar", "fashion", "sneakers"]',
+    return: '["front-end dev", "guitar", "fashion", "sneakers"]',
   },
   {
     input: 'Twan.education',

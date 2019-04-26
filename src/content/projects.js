@@ -6,6 +6,7 @@ import reactcoin from 'images/reactcoin.webp';
 import universe from 'images/universe.webp';
 import cssdoodle from 'images/cssdoodle.webp';
 import stormdigital from 'images/stormdigital.png';
+import stormlogo from 'images/stormlogo.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
@@ -20,6 +21,18 @@ export default [
     links: {
       github: 'https://github.com/jengelstengel/anytimers-temp',
       preview: 'https://www.stormdigital.nl/',
+    },
+  },
+  {
+    title: 'Animated Storm Digital Logo',
+    description:
+      'During my employment at Storm Digital, I started working with GSAP. To start developing my skills, I built a small script that animates and "draws" their logo. It is built with GSAP and DrawSVG, all in-line (for implementation reasons).',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
+    image: stormlogo,
+    alt: 'storm logo',
+    links: {
+      github: 'https://github.com/jengelstengel/stormlogo',
+      preview: 'https://awesome-boyd-64c375.netlify.com/',
     },
   },
   {
