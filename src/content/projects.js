@@ -32,7 +32,7 @@ export default [
     alt: 'storm logo',
     links: {
       github: 'https://github.com/jengelstengel/stormlogo',
-      preview: 'https://awesome-boyd-64c375.netlify.com/',
+      preview: 'https://storm-logo.netlify.com/',
     },
   },
   {
@@ -44,7 +44,7 @@ export default [
     alt: 'Anytime.rs',
     links: {
       github: 'https://github.com/jengelstengel/anytimers-temp',
-      preview: 'https://ecstatic-hopper-b0d9c5.netlify.com/',
+      preview: 'https://anytimers-temp.netlify.com/',
     },
   },
   {
@@ -101,7 +101,7 @@ export default [
     alt: 'CSS Doodle',
     links: {
       github: 'https://github.com/jengelstengel/doodle-testing',
-      preview: 'https://stupefied-mclean-e5b35e.netlify.com/',
+      preview: 'https://css-doodle.netlify.com/',
     },
   },
   {
@@ -116,7 +116,7 @@ export default [
     alt: 'Parallax starry Universe',
     links: {
       github: 'https://github.com/jengelstengel/starry-universe',
-      preview: 'https://xenodochial-curran-eeac49.netlify.com/',
+      preview: 'https://parallax-stars.netlify.com/',
     },
   },
   {
