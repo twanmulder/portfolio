@@ -1,6 +1,12 @@
 import React from 'react';
 
 class Articles extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hasExecuted: false,
+    };
+  }
   componentDidMount() {
     const script = document.createElement('script');
     const element = document.querySelector('.rss');
@@ -10,9 +16,15 @@ class Articles extends React.Component {
     script.async = true;
 
     // Dit is dikke whack
-    Object.defineProperty(document, 'scripts', {
-      value: [script],
-    });
+    if (!this.state.hasExecuted) {
+      Object.defineProperty(document, 'scripts', {
+        value: [script],
+      });
+      this.setState({
+        hasExecuted: true,
+      });
+    }
+
     element.appendChild(script);
   }
 
