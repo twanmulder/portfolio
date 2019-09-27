@@ -1,0 +1,121 @@
+:root {
+  --whiteColor: #fff;
+  --greyColor: #f1f1f1;
+  --accentColor: #fcb9b2;
+  --accentColorLight: #fcc9c4;
+  --blackColor: #333;
+  --paddingMedium: 1rem;
+  --paddingLarge: 2rem;
+  --paddingXLarge: 3rem;
+  --iconsizeLarge: 2.5rem;
+}
+html,
+body,
+main,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 100%;
+  background: var(--accentColor);
+  font-family: 'Roboto Slab', serif;
+}
+main {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background: var(--greyColor);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid var(--blackColor);
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+a {
+  color: var(--accentColor);
+  cursor: pointer;
+  text-decoration: none;
+}
+.underline {
+  padding: 0 2px;
+  box-shadow: inset 0 -0.2rem 0 0 var(--accentColor);
+  transition: box-shadow 0.2s;
+}
+.underline:hover {
+  box-shadow: inset 0 -2.5rem 0 0 var(--accentColor);
+}
+.content {
+  position: relative;
+  height: 100%;
+}
+
+/* SELF */
+.self {
+  padding: var(--paddingMedium) var(--paddingXLarge) var(--paddingMedium)
+    var(--paddingLarge);
+  /* padding-left: var(--paddingLarge); */
+  border-bottom: 2px solid var(--blackColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons a {
+  font-size: var(--iconsizeLarge);
+  margin-right: 0.2rem;
+  transition: color 0.2s;
+}
+.icons a:hover {
+  color: var(--accentColorLight);
+}
+
+/* INTRO */
+.intro {
+  padding: var(--paddingMedium) var(--paddingXLarge) var(--paddingMedium)
+    var(--paddingLarge);
+  border-bottom: 2px solid var(--blackColor);
+  display: flex;
+}
+
+.intro article {
+  width: 50%;
+}
+
+/* PROJECTS */
+.projects {
+  height: 300px;
+}
+.project__card {
+}
+
+.project__links {
+  display: flex;
+}
+
+/* ARTICLES */
+.articles {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  border-top: 2px solid var(--blackColor);
+}
