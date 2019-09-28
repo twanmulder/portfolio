@@ -14,6 +14,7 @@ body,
 main,
 h1,
 h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -38,7 +39,6 @@ main {
   max-width: 1000px;
   height: 100%;
   background: var(--greyColor);
-  border-radius: 12px;
   overflow: hidden;
   border: 2px solid var(--blackColor);
 }
@@ -55,6 +55,10 @@ a {
   color: var(--accentColor);
   cursor: pointer;
   text-decoration: none;
+  transition: 0.2s color;
+}
+a:hover {
+  color: var(--accentColorLight);
 }
 .underline {
   padding: 0 2px;
@@ -82,16 +86,11 @@ a {
 .icons a {
   font-size: var(--iconsizeLarge);
   margin-right: 0.2rem;
-  transition: color 0.2s;
-}
-.icons a:hover {
-  color: var(--accentColorLight);
 }
 
 /* INTRO */
 .intro {
-  padding: var(--paddingMedium) var(--paddingXLarge) var(--paddingMedium)
-    var(--paddingLarge);
+  padding: var(--paddingMedium) var(--paddingLarge);
   border-bottom: 2px solid var(--blackColor);
   display: flex;
 }
@@ -102,20 +101,68 @@ a {
 
 /* PROJECTS */
 .projects {
-  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 .project__card {
+  width: 50%;
+  height: 18rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  line-height: 2rem;
+  border-bottom: 2px solid var(--blackColor);
+}
+.project__card:nth-child(odd) {
+  border-right: 2px solid var(--blackColor);
+}
+
+.project__image {
+  position: relative;
+  height: 100%;
+}
+.project__image:hover svg {
+  transform: translate(-50%, -115%);
+}
+.project__image svg {
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.25s transform;
+}
+
+.project__image:hover .overlay {
+  opacity: 1;
+}
+
+.project__image .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+
+.project__image img {
+  margin: 0 auto;
+  display: block;
+}
+
+.project__description {
 }
 
 .project__links {
   display: flex;
+  justify-content: center;
+}
+
+.project__links .project__demo {
+  margin-right: 1rem;
 }
 
 /* ARTICLES */
 .articles {
-  position: absolute;
-  bottom: 0;
-  height: 200px;
-  width: 100%;
-  border-top: 2px solid var(--blackColor);
 }
