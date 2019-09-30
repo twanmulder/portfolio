@@ -1,0 +1,67 @@
+:root {
+  --whiteColor: #fff;
+  --greyColor: #efefef;
+  --fontBlack: #383838;
+  --fontGrey: #a1a1a1;
+}
+html,
+body,
+main,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  background-color: var(--greyColor);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--fontBlack);
+  height: 400vh;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 4%;
+  width: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+nav a {
+  color: var(--fontGrey);
+  transition: 0.2s color;
+  text-transform: uppercase;
+  padding: 1rem 1rem 0;
+}
+nav a:hover {
+  color: var(--fontBlack);
+}
+nav a:nth-child(1) {
+  flex-grow: 2;
+}
+nav a h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
