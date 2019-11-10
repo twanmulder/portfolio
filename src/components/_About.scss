@@ -5,7 +5,7 @@
   .terminal {
     .terminal-header {
       position: relative;
-      background-color: $darkBlue;
+      background-color: var(--terminal-bg);
       height: 42px;
       border-radius: 10px 10px 0 0;
       display: flex;
@@ -39,14 +39,14 @@
     }
 
     .terminal-window {
-      background-color: $darkBlue;
+      background-color: var(--terminal-bg);
       border-radius: 0 0 10px 10px;
       box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
         0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
       font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
 
       a {
-        color: $fadedBlue;
+        color: var(--blue-light);
       }
 
       .statement:first-child {
@@ -64,8 +64,7 @@
         line-height: 24px;
 
         .input-statement {
-          color: $lightBlue;
-          color: #abb2bf;
+          color: var(--text-step1);
 
           &:before {
             content: '>\a0';
@@ -73,8 +72,7 @@
         }
 
         .return-statement {
-          color: #abb2bf;
-          color: #f6f6f6;
+          color: $text-white;
         }
 
         span {

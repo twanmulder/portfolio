@@ -16,7 +16,7 @@
   .hero-title {
     font-family: 'Montserrat', Consolas, 'Lucida Console', monospace;
     font-size: 4.5em;
-    color: $blue;
+    color: var(--blue);
 
     &:before {
       content: '>\a0';
@@ -27,7 +27,7 @@
     }
 
     span {
-      background-color: rgba($blue, 0.25);
+      background-color: rgba(var(--blue), 0.25);
       animation: caret 1s steps(1) infinite;
     }
 
@@ -43,7 +43,7 @@
     font-weight: 200;
     font-size: 1.3em;
     line-height: 40px;
-    color: $grey;
+    color: var(--text-main);
     margin: 80px 0;
 
     @include mobile {

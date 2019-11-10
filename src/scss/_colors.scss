@@ -11,8 +11,67 @@ $fadedBlue: #5a8dff;
 $lightBlue: #62afef;
 $verylightBlue: #b6deff;
 $darkBlue: #282c34;
-$linkRed: #e06c75;
-$green: #98c379;
+  
+// NEW COLORS
+$app-bg-dark: #0D0F16;
+$app-bg: #F6F9FC;
+
+$blue: #0002FF;
+$blue-light: #4069F9;
+
+$text-white: #F6F6F6;
+$text-lightgrey: #D4D5D7;
+$text-grey: #333D54;
+
+:root{
+  --purple: #747fe0;
+  --grey: #525f7f;
+  --lightGrey: #f0f0f0;
+  --fadedPurple: #5a5d7a;
+  --fadedBlue: #7795f8;
+  --highlighterGreen: #92eac0;
+  --linkTeal: #35feff;
+  --backgroundColor: #f6f9fc;
+  --blue: #004ffe;
+  --fadedBlue: #5a8dff;
+  --lightBlue: #62afef;
+  --verylightBlue: #b6deff;
+  --darkBlue: #282c34;
+  --linkRed: #e06c75;
+  --green: #98c379;
+  
+  // NEW COLORS
+  --app-bg: #F6F9FC;
+  
+  --blue: #0002FF;
+  --blue-light: #4069f9;
+  --blue-light-rgb: 64, 105, 249;
+
+  --terminal-bg: #0d0f17;
+  --project-card: #fff;
+  --project-svg: url('../images/project-background-white.svg');
+
+  --text-main: #333D54;
+  --text-step1: #D4D5D7;
+  --text-contrast: #F6F6F6;
+}
 
 
+// DARK COLORS
+@media (prefers-color-scheme: dark) {
+  :root{
+    --app-bg: #0D0F16;
 
+    --blue: #0052FF;
+    --blue-light: #4069F9;
+    --blue-light-rgb: 64, 105, 249;
+
+    --terminal-bg: #161618;
+    --project-card: #161618;
+    --project-svg: url('../images/project-background-black.svg');
+
+    --text-main: #F6F6F6;
+    --text-step1: #D4D5D7;
+    --text-contrast: #333D54;
+  }
+}

@@ -20,7 +20,7 @@
 
     &:after {
       content: '||';
-      color: $grey;
+      color: $text-grey;
       margin: 0 30px;
 
       @include mobile {
@@ -40,7 +40,7 @@
   a {
     position: relative;
     text-decoration: none;
-    color: $grey;
+    color: var(--text-main);
 
     &:after {
       display: block;
@@ -49,7 +49,7 @@
       bottom: -5px;
       width: 0;
       height: 2px;
-      background-color: $blue;
+      background-color: var(--blue);
       content: '';
       transition: width 0.2s;
 
@@ -59,7 +59,7 @@
     }
 
     &:hover {
-      color: $blue;
+      color: var(--blue);
 
       &:after {
         width: 100%;
