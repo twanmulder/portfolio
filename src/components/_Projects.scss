@@ -56,7 +56,8 @@
       }
 
       h3 {
-        font-weight: 500;
+        font-family: 'Montserrat', Open Sans, Segoe UI, sans-serif;
+        font-weight: 700;
         font-size: 1.8em;
         line-height: 38px;
         color: $grey;
@@ -87,7 +88,7 @@
           font-size: 0.9em;
           font-weight: 600;
           box-sizing: border-box;
-          background: $purple;
+          background: $fadedBlue;
           color: #fff;
 
           &:hover {
@@ -99,7 +100,7 @@
 
           &.secondary {
             background: #fff;
-            color: $purple;
+            color: $fadedBlue;
 
             &:hover {
               background: #fff;
@@ -124,7 +125,7 @@
 
         .project-skill {
           border-radius: 4px;
-          border: solid 2px $highlighterGreen;
+          border: solid 2px $verylightBlue;
           padding: 8px;
           margin-right: 10px;
           margin-bottom: 10px;

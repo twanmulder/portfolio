@@ -14,9 +14,9 @@
   }
 
   .hero-title {
-    font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
+    font-family: 'Montserrat', Consolas, 'Lucida Console', monospace;
     font-size: 4.5em;
-    color: $purple;
+    color: $blue;
 
     &:before {
       content: '>\a0';
@@ -27,7 +27,7 @@
     }
 
     span {
-      background-color: rgba($purple, 0.65);
+      background-color: rgba($blue, 0.25);
       animation: caret 1s steps(1) infinite;
     }
 

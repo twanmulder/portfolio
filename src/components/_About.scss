@@ -4,8 +4,9 @@
 
   .terminal {
     .terminal-header {
-      height: 28px;
-      background-color: #e4e3e5;
+      position: relative;
+      background-color: $darkBlue;
+      height: 42px;
       border-radius: 10px 10px 0 0;
       display: flex;
       justify-content: flex-start;
@@ -15,7 +16,10 @@
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        margin-left: 9px;
+        margin-left: 8px;
+      }
+      .header-button:nth-child(1){
+        margin-left: 16px;
       }
 
       .red {
@@ -35,18 +39,18 @@
     }
 
     .terminal-window {
-      background-color: $fadedPurple;
-      border-radius: 0 0 4px 4px;
+      background-color: $darkBlue;
+      border-radius: 0 0 10px 10px;
       box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
         0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
       font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
 
       a {
-        color: $linkTeal;
+        color: $fadedBlue;
       }
 
       .statement:first-child {
-        padding-top: 35px;
+        padding-top: 24px;
       }
 
       .statement:last-child {
@@ -60,7 +64,8 @@
         line-height: 24px;
 
         .input-statement {
-          color: #f7f7f7;
+          color: $lightBlue;
+          color: #abb2bf;
 
           &:before {
             content: '>\a0';
@@ -68,7 +73,8 @@
         }
 
         .return-statement {
-          color: #e7d184;
+          color: #abb2bf;
+          color: #f6f6f6;
         }
 
         span {
