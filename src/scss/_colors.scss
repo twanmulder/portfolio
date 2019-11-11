@@ -11,19 +11,19 @@ $fadedBlue: #5a8dff;
 $lightBlue: #62afef;
 $verylightBlue: #b6deff;
 $darkBlue: #282c34;
-  
+
 // NEW COLORS
-$app-bg-dark: #0D0F16;
-$app-bg: #F6F9FC;
+$app-bg-dark: #0d0f16;
+$app-bg: #f6f9fc;
 
-$blue: #0002FF;
-$blue-light: #4069F9;
+$blue: #0002ff;
+$blue-light: #4069f9;
 
-$text-white: #F6F6F6;
-$text-lightgrey: #D4D5D7;
-$text-grey: #333D54;
+$text-white: #f6f6f6;
+$text-lightgrey: #d4d5d7;
+$text-grey: #333d54;
 
-:root{
+:root {
   --purple: #747fe0;
   --grey: #525f7f;
   --lightGrey: #f0f0f0;
@@ -39,11 +39,12 @@ $text-grey: #333D54;
   --darkBlue: #282c34;
   --linkRed: #e06c75;
   --green: #98c379;
-  
+
   // NEW COLORS
-  --app-bg: #F6F9FC;
-  
-  --blue: #0002FF;
+  --app-bg: #f6f9fc;
+
+  --blue: #0002ff;
+  --blue-rgb: 0, 82, 255;
   --blue-light: #4069f9;
   --blue-light-rgb: 64, 105, 249;
 
@@ -51,27 +52,34 @@ $text-grey: #333D54;
   --project-card: #fff;
   --project-svg: url('../images/project-background-white.svg');
 
-  --text-main: #333D54;
-  --text-step1: #D4D5D7;
-  --text-contrast: #F6F6F6;
-}
+  --about-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
+    0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  --project-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+    0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
 
+  --text-main: #333d54;
+  --text-step1: #d4d5d7;
+  --text-contrast: #f6f6f6;
+}
 
 // DARK COLORS
 @media (prefers-color-scheme: dark) {
-  :root{
-    --app-bg: #0D0F16;
+  :root {
+    --app-bg: #0d0f16;
 
-    --blue: #0052FF;
-    --blue-light: #4069F9;
+    --blue: #0052ff;
+    --blue-light: #4069f9;
     --blue-light-rgb: 64, 105, 249;
 
     --terminal-bg: #161618;
     --project-card: #161618;
     --project-svg: url('../images/project-background-black.svg');
 
-    --text-main: #F6F6F6;
-    --text-step1: #D4D5D7;
-    --text-contrast: #333D54;
+    --about-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
+    --project-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
+
+    --text-main: #f6f6f6;
+    --text-step1: #d4d5d7;
+    --text-contrast: #333d54;
   }
 }

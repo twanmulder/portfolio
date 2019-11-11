@@ -27,8 +27,10 @@
     }
 
     span {
-      background-color: rgba(var(--blue), 0.25);
+      background-color: rgba(var(--blue-rgb), 0.25);
       animation: caret 1s steps(1) infinite;
+      margin-left: 4px;
+      padding: 0 4px;
     }
 
     @keyframes caret {
