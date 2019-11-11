@@ -20,7 +20,7 @@
 
     &:after {
       content: '||';
-      color: $text-grey;
+      color: rgba(var(--text-main-rgb), 0.4);
       margin: 0 30px;
 
       @include mobile {
