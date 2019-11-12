@@ -1,21 +1,41 @@
 import portfolio from 'images/portfolio.webp';
 import anytime from 'images/anytime.png';
 import neroa from 'images/neroa.webp';
-import potetos from 'images/potetos.webp'
+import potetos from 'images/potetos.webp';
 import reactcoin from 'images/reactcoin.webp';
 import universe from 'images/universe.webp';
 import cssdoodle from 'images/cssdoodle.webp';
 import stormdigital from 'images/stormdigital.png';
 import stormlogo from 'images/stormlogo.png';
+import klm from 'images/KLM.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
   {
+    title: 'KLM 100 Year Campaign',
+    description:
+      'The Dutch airline KLM celebrated their 100th birthday in October 2019. Because of this, they launched a campaign spanning multiple marketing channels. The "Radical" that I built received over 4 million views in a span of 2 days, raising conversions by 34%.<br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
+    image: klm,
+    alt: 'KLM 100 Year Campaign',
+    links: {
+      preview:
+        'https://clients.weborama.nl/files/campaigns2/9847998414/187927/NL_nu.nl_201904_index.html',
+    },
+  },
+  {
     title: 'Storm Digital',
     description:
-      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaigns using Google Doubleclick Studio',
-    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
+      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaigns using Google Doubleclick Studio.',
+    skills: [
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'Vue',
+      'Greensock',
+      'Doubleclick Studio',
+    ],
     image: stormdigital,
     alt: 'storm digital',
     links: {
@@ -27,7 +47,14 @@ export default [
     title: 'Animated Storm Digital Logo',
     description:
       'During my employment at Storm Digital, I started working with GSAP. To start developing my skills, I built a small script that animates and "draws" their logo. It is built with GSAP and DrawSVG, all in-line (for implementation reasons).',
-    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
+    skills: [
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'Vue',
+      'Greensock',
+      'Doubleclick Studio',
+    ],
     image: stormlogo,
     alt: 'storm logo',
     links: {
@@ -74,13 +101,7 @@ export default [
     title: 'VV Potetos',
     description:
       'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website. This project was in co-op with Convident. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
-    skills: [
-      'PHP',
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'Usability Testing'
-    ],
+    skills: ['PHP', 'HTML5', 'CSS3', 'JavaScript', 'Usability Testing'],
     image: potetos,
     alt: 'VV Potetos',
     links: {
@@ -92,11 +113,7 @@ export default [
     title: 'CSS Doodle',
     description:
       'CSS Doodle is a web component which can be used to draw patterns inside of HTML without the use of any CSS files. For this doodle I set a grid and shape, after which I animated them and based the colour of the circles on the position inside the grid.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'CSS Doodle'
-    ],
+    skills: ['HTML5', 'CSS3', 'CSS Doodle'],
     image: cssdoodle,
     alt: 'CSS Doodle',
     links: {
@@ -108,10 +125,7 @@ export default [
     title: 'Parallax Starry Universe',
     description:
       'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the CSS property &#39;perspective&#39; to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
-    skills: [
-      'HTML5',
-      'CSS3',
-    ],
+    skills: ['HTML5', 'CSS3'],
     image: universe,
     alt: 'Parallax starry Universe',
     links: {
