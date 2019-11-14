@@ -1,6 +1,8 @@
 import React from 'react';
 import Scrollchor from 'react-scrollchor';
 
+import ThemeToggle from './ThemeToggle';
+
 class Navbar extends React.PureComponent {
   componentDidMount() {
     this.refs.navbar.addEventListener('click', e => {
@@ -19,6 +21,7 @@ class Navbar extends React.PureComponent {
   render() {
     return (
       <div className="navbar-container">
+        <ThemeToggle />
         <nav className="navbar" ref="navbar">
           <Scrollchor to="#projects">Projects</Scrollchor>
           <Scrollchor to="#contact">Contact</Scrollchor>

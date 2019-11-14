@@ -1,4 +1,4 @@
-:root {
+body.light-theme {
   --app-bg: #f6f9fc;
 
   --white: #f6f6f6;
@@ -24,24 +24,26 @@
 }
 
 // DARK COLORS
-@media (prefers-color-scheme: dark) {
-  :root {
-    --app-bg: #0d0f16;
+// @media (prefers-color-scheme: dark) {
+body.dark-theme {
+  --app-bg: #0d0f16;
 
-    --blue: #0052ff;
-    --blue-light: #4069f9;
-    --blue-light-rgb: 64, 105, 249;
+  --white: #f6f6f6;
 
-    --terminal-bg: #161618;
-    --project-card: #161618;
-    --project-svg: url('../images/project-background-black.svg');
+  --blue: #0052ff;
+  --blue-light: #4069f9;
+  --blue-light-rgb: 64, 105, 249;
 
-    --about-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
-    --project-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
+  --terminal-bg: #161618;
+  --project-card: #161618;
+  --project-svg: url('../images/project-background-black.svg');
 
-    --text-main: #f6f6f6;
-    --text-main-rgb: 246, 246, 246;
-    --text-step1: #b0b2b6;
-    --text-contrast: #333d54;
-  }
+  --about-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
+  --project-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
+
+  --text-main: #f6f6f6;
+  --text-main-rgb: 246, 246, 246;
+  --text-step1: #b0b2b6;
+  --text-contrast: #333d54;
 }
+// }

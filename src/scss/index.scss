@@ -10,6 +10,7 @@
 @import '../components/Projects';
 @import '../components/Contact';
 @import '../components/Footer';
+@import '../components/ThemeToggle';
 
 @font-face {
   font-family: 'Monaco';
@@ -24,6 +25,7 @@ body {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'pnum';
   font-variant-numeric: proportional-nums;
+  transition: background-color 0.25s;
 }
 
 a {
