@@ -6,8 +6,8 @@
   color: var(--text-main);
 
   @include mobile {
-    justify-content: center;
-    width: 75%;
+    width: 100%;
+    flex-direction: column-reverse;
   }
 
   .navbar {
@@ -19,6 +19,8 @@
 
     @include mobile {
       font-size: 1em;
+      width: 100%;
+      justify-content: space-evenly;
     }
 
     a {

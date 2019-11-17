@@ -3,7 +3,7 @@ import React from 'react';
 class ThemeToggle extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { isChecked: null };
+    this.state = { isChecked: false };
   }
   activateLightMode() {
     document.body.className = 'light-theme';
