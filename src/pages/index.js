@@ -21,7 +21,7 @@ export default class Home extends React.PureComponent {
           <h2 id="projects" className="section-title">
             Projects
           </h2>
-          <a id="articles" className="section-title" href="https://medium.com/@toktoktwan" target="_blank">
+          <a id="articles" className="section-title" href="https://medium.com/@toktoktwan" target="_blank" rel="noreferrer">
             Articles
           </a>
         </div>
