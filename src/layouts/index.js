@@ -15,6 +15,7 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Twan Mulder\'s personal Portfolio website' },
         { name: 'keywords', content: 'portfolio, projects, articles, Twan, Mulder' },
+        { name: 'google-site-verification', content: 'iSgOqOBK8bpK2T1u0LWkGcv2wOMYjECbKzNEl-IKGg0' },
       ]}
     />
     <div>{children()}</div>
