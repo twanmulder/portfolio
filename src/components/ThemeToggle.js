@@ -60,9 +60,10 @@ class ThemeToggle extends React.PureComponent {
     const { isChecked } = this.state;
     return (
       <div className="toggle-wrapper">
-        <label className="switch">
+        <label className="switch" for="togggleTheme" aria-label="Toggle theme (Light or Dark)">
           <input
             checked={isChecked}
+            id="toggleTheme"
             type="checkbox"
             onClick={() => {
               this.toggleTheme();
