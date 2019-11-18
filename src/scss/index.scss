@@ -63,6 +63,34 @@ a {
   }
 }
 
+.menu-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+
+  h2,a {
+    cursor: pointer;
+  }
+  a{
+    color: var(--text-main);
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    &:after{
+      border-color: transparent;
+      width: 0;
+      transition: all 0.2s;
+    }
+    &:hover{
+      opacity: 1;
+      &:after{
+        border-color: var(--blue-light);
+        width: 50px;
+      }
+    }
+  }
+}
+
 .section-title {
   color: var(--text-main);
   font-family: 'Montserrat', Open Sans, Segoe UI, sans-serif;

@@ -17,9 +17,14 @@ export default class Home extends React.PureComponent {
         <Navbar />
         <Hero />
         <About statements={statements} />
-        <h2 id="projects" className="section-title">
-          Projects
-        </h2>
+        <div className="menu-wrapper">
+          <h2 id="projects" className="section-title">
+            Projects
+          </h2>
+          <a id="articles" className="section-title" href="https://medium.com/@toktoktwan" target="_blank">
+            Articles
+          </a>
+        </div>
         <Projects projects={projects} />
         <div className="background" />
         <h2 id="contact" className="section-title">
