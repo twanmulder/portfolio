@@ -35,7 +35,6 @@ class Html extends Component {
 
           <meta name="referrer" content="origin" />
           <meta charSet="utf-8" />
-          <meta name="description" content="Twan Mulder's Portfolio" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
@@ -43,7 +42,6 @@ class Html extends Component {
           />
           <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
           <link rel="stylesheet" href="scss/hover-min.css">
-          <title>Twan's Portfolio</title>
           {css}
         </head>
         <body>

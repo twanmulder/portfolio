@@ -7,11 +7,14 @@ import 'fontawesome';
 
 const Layout = ({ children, data }) => (
   <div className="container-lg">
+    <Helmet>
+      <html lang="en"></html>
+    </Helmet>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Twan Mulder\'s personal Portfolio website' },
+        { name: 'keywords', content: 'portfolio, projects, articles, Twan, Mulder' },
       ]}
     />
     <div>{children()}</div>
