@@ -11,12 +11,11 @@ body.light-theme {
   --terminal-bg: #0d0f17;
   --project-card: #fff;
   --project-svg: url('../images/project-background-white.svg');
+  --star-color: transparent;
 
-  --about-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
-    0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
-  --project-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
-    0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
-  --project-link-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); 
+  --about-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  --project-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  --project-link-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   --project-link-shadow-hover: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 
   --text-main: #333d54;
@@ -40,10 +39,11 @@ body.dark-theme {
   --terminal-bg: #202022;
   --project-card: #202022;
   --project-svg: url('../images/project-background-black.svg');
+  --star-color: #fff;
 
   --about-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
   --project-box-shadow: 0px 16px 13px -10px rgba(0, 0, 0, 0.15);
-  --project-link-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); 
+  --project-link-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   --project-link-shadow-hover: 0 7px 14px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.12);
 
   --text-main: #f6f6f6;

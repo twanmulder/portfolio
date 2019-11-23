@@ -14,6 +14,7 @@
   .switch {
     position: relative;
     display: inline-block;
+    user-select: none;
     width: 60px;
     height: 34px;
 
@@ -33,6 +34,25 @@
       background-color: #ccc;
       -webkit-transition: 0.4s;
       transition: 0.4s;
+
+      .star {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        transition: color 0.2s;
+        color: var(--star-color);
+        z-index: 2;
+
+        &:first-child {
+          top: 6px;
+          left: 23px;
+        }
+        &:nth-child(2) {
+          top: 16px;
+          left: 11px;
+        }
+      }
     }
 
     .slider:before,

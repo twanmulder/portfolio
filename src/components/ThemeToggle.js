@@ -59,7 +59,10 @@ class ThemeToggle extends React.PureComponent {
               this.toggleTheme();
             }}
           />
-          <span className="slider round" />
+          <span className="slider round">
+            <div className="star">★</div>
+            <div className="star">★</div>
+          </span>
         </label>
         <p>Toggle theme</p>
       </div>
