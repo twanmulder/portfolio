@@ -41,10 +41,7 @@ class Statement extends React.PureComponent {
     return (
       <div className="statement">
         <div className="input-statement">{this.props.statement.input}</div>
-        <div
-          className="return-statement"
-          dangerouslySetInnerHTML={{ __html: this.props.statement.return }}
-        />
+        <div className="return-statement" dangerouslySetInnerHTML={{ __html: this.props.statement.return }} />
       </div>
     );
   }

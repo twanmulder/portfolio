@@ -20,22 +20,13 @@ export default [
     image: klm,
     alt: 'KLM 100 Year Campaign',
     links: {
-      preview:
-        'https://clients.weborama.nl/files/campaigns2/9847998414/187927/NL_nu.nl_201904_index.html',
+      preview: 'https://clients.weborama.nl/files/campaigns2/9847998414/187927/NL_nu.nl_201904_index.html',
     },
   },
   {
     title: 'Storm Digital',
-    description:
-      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaigns using Google Doubleclick Studio.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Javascript',
-      'Vue',
-      'Greensock',
-      'Doubleclick Studio',
-    ],
+    description: 'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements and creating intriguing campaigns using Google Doubleclick Studio.',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
     image: stormdigital,
     alt: 'storm digital',
     links: {
@@ -45,16 +36,8 @@ export default [
   },
   {
     title: 'Animated Storm Digital Logo',
-    description:
-      'During my employment at Storm Digital, I started working with GSAP. To start developing my skills, I built a small script that animates and "draws" their logo. It is built with GSAP and DrawSVG, all in-line (for implementation reasons).',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Javascript',
-      'Vue',
-      'Greensock',
-      'Doubleclick Studio',
-    ],
+    description: 'During my employment at Storm Digital, I started working with GSAP. To start developing my skills, I built a small script that animates and "draws" their logo. It is built with GSAP and DrawSVG, all in-line (for implementation reasons).',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'Doubleclick Studio'],
     image: stormlogo,
     alt: 'storm logo',
     links: {
@@ -76,8 +59,7 @@ export default [
   },
   {
     title: 'React Coin',
-    description:
-      'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing. It is deployed on Heroku.',
+    description: 'React-Coin is a very simple React web app, which I made to develop my React skills. It includes using mutiple different components, calling a cryptocurrency API, and dealing with client/server side routing. It is deployed on Heroku.',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Node.JS', 'Heroku'],
     image: reactcoin,
     alt: 'React-Coin',
@@ -111,8 +93,7 @@ export default [
   },
   {
     title: 'CSS Doodle',
-    description:
-      'CSS Doodle is a web component which can be used to draw patterns inside of HTML without the use of any CSS files. For this doodle I set a grid and shape, after which I animated them and based the colour of the circles on the position inside the grid.',
+    description: 'CSS Doodle is a web component which can be used to draw patterns inside of HTML without the use of any CSS files. For this doodle I set a grid and shape, after which I animated them and based the colour of the circles on the position inside the grid.',
     skills: ['HTML5', 'CSS3', 'CSS Doodle'],
     image: cssdoodle,
     alt: 'CSS Doodle',
@@ -135,8 +116,7 @@ export default [
   },
   {
     title: 'Portfolio',
-    description:
-      'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
+    description: 'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
     image: portfolio,
     alt: 'Portfolio',

@@ -7,13 +7,9 @@ class Navbar extends React.PureComponent {
   componentDidMount() {
     this.refs.navbar.addEventListener('click', e => {
       if (e.target.innerText === 'Projects') {
-        document
-          .getElementById('projects')
-          .scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
       } else if (e.target.innerText === 'Contact') {
-        document
-          .getElementById('contact')
-          .scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
       }
     });
   }
@@ -24,7 +20,9 @@ class Navbar extends React.PureComponent {
         <ThemeToggle />
         <nav className="navbar" ref="navbar">
           <Scrollchor to="#projects">Projects</Scrollchor>
-          <a href="https://medium.com/@toktoktwan" target="_blank" rel="noreferrer">Articles</a>
+          <a href="https://medium.com/@toktoktwan" target="_blank" rel="noreferrer">
+            Articles
+          </a>
           <Scrollchor to="#contact">Contact</Scrollchor>
         </nav>
       </div>

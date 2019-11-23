@@ -10,11 +10,7 @@ class ContactLinks extends React.PureComponent {
           </a>
         </span>
         <span>
-          <a
-            rel="noopener"
-            target="_blank"
-            href="https://www.linkedin.com/in/twanmulder/"
-          >
+          <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/twanmulder/">
             LinkedIn
           </a>
         </span>

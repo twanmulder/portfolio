@@ -23,12 +23,7 @@ class Typewriter extends React.Component {
   }
 
   componentDidMount() {
-    this.clicketyClack(
-      this.props.text,
-      this.props.minTypeSpeed,
-      this.props.maxTypeSpeed,
-      this.props.initDelay
-    );
+    this.clicketyClack(this.props.text, this.props.minTypeSpeed, this.props.maxTypeSpeed, this.props.initDelay);
   }
 
   render() {

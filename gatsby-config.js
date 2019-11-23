@@ -11,13 +11,13 @@ module.exports = {
       options: {
         trackingId: `UA-96648264-2`,
         anonymize: true,
-        respectDNT: true
+        respectDNT: true,
       },
     },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/images/favicon.png",
+        logo: './src/images/favicon.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -28,9 +28,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
-    }
+          windows: false,
+        },
+      },
+    },
   ],
 };

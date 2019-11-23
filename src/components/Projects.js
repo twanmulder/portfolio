@@ -13,7 +13,7 @@ class ProjectSkills extends React.PureComponent {
     return (
       <div className="project-skills">
         {this.props.skills.map((skill, index) => {
-          return <ProjectSkill skill={skill} key={index}/>;
+          return <ProjectSkill skill={skill} key={index} />;
         })}
       </div>
     );
@@ -25,20 +25,10 @@ class ProjectLinks extends React.PureComponent {
     const { github, preview } = this.props.links;
     return (
       <div className="project-links">
-        <a
-          href={preview}
-          rel="noopener"
-          target="_blank"
-          className="project-link"
-        >
+        <a href={preview} rel="noopener" target="_blank" className="project-link">
           Live Demo <FontAwesomeIcon icon="external-link-alt" />
         </a>
-        <a
-          href={github}
-          rel="noopener"
-          target="_blank"
-          className="project-link secondary"
-        >
+        <a href={github} rel="noopener" target="_blank" className="project-link secondary">
           <FontAwesomeIcon icon={['fab', 'github']} /> View Source
         </a>
       </div>
@@ -53,7 +43,7 @@ class ProjectCard extends React.PureComponent {
     return (
       <div className="project-card">
         <LazyLoad height={100} offset={100}>
-          <img className="project-image" src={image} alt={alt}/>
+          <img className="project-image" src={image} alt={alt} />
         </LazyLoad>
         <div className="project-background" />
         <div className="project-content">
@@ -73,15 +63,7 @@ class Projects extends React.PureComponent {
     return (
       <div className="projects-container">
         {projects.map(proj => (
-          <ProjectCard
-            title={proj.title}
-            description={proj.description}
-            skills={proj.skills}
-            links={proj.links}
-            image={proj.image}
-            alt={proj.alt}
-            key={proj.title}
-          />
+          <ProjectCard title={proj.title} description={proj.description} skills={proj.skills} links={proj.links} image={proj.image} alt={proj.alt} key={proj.title} />
         ))}
       </div>
     );

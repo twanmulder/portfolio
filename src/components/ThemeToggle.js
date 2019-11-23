@@ -14,28 +14,18 @@ class ThemeToggle extends React.PureComponent {
     this.setState({ isChecked: true });
   }
   setInitTheme() {
-    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
-      .matches;
-    const isLightMode = window.matchMedia('(prefers-color-scheme: light)')
-      .matches;
-    const isNotSpecified = window.matchMedia(
-      '(prefers-color-scheme: no-preference)'
-    ).matches;
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches;
     const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified;
 
-    window
-      .matchMedia('(prefers-color-scheme: dark)')
-      .addListener(e => e.matches && this.activateDarkMode());
-    window
-      .matchMedia('(prefers-color-scheme: light)')
-      .addListener(e => e.matches && this.activateLightMode());
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(e => e.matches && this.activateDarkMode());
+    window.matchMedia('(prefers-color-scheme: light)').addListener(e => e.matches && this.activateLightMode());
 
     if (isDarkMode) this.activateDarkMode();
     if (isLightMode) this.activateLightMode();
     if (isNotSpecified || hasNoSupport) {
-      console.log(
-        'You specified no preference for a color scheme or your browser does not support it. I schedule dark mode during night time.'
-      );
+      console.log('You specified no preference for a color scheme or your browser does not support it. I schedule dark mode during night time.');
       now = new Date();
       hour = now.getHours();
       if (hour < 4 || hour >= 16) {

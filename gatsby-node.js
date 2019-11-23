@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 exports.modifyWebpackConfig = function({ config, env }) {
   config.merge({
@@ -6,6 +6,6 @@ exports.modifyWebpackConfig = function({ config, env }) {
       root: path.resolve(__dirname, './src'),
       extensions: ['', '.js', '.json'],
     },
-  })
-  return config
-}
+  });
+  return config;
+};

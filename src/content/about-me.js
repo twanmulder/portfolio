@@ -5,8 +5,7 @@ export default [
   },
   {
     input: 'Twan.contactInfo',
-    return:
-      '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jengelstengel">github</a>"]',
+    return: '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jengelstengel">github</a>"]',
   },
   {
     input: 'Twan.interests',
@@ -14,8 +13,7 @@ export default [
   },
   {
     input: 'Twan.education',
-    return:
-      '"B.Sc. Interactive Media & Technologies - Hanze University of Applied Sciences, Groningen"',
+    return: '"B.Sc. Interactive Media & Technologies - Hanze University of Applied Sciences, Groningen"',
   },
   {
     input: 'Twan.skills',
