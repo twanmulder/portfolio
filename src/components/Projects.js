@@ -42,7 +42,7 @@ class ProjectCard extends React.PureComponent {
 
     return (
       <div className="project-card">
-        <LazyLoad height={100} offset={100}>
+        <LazyLoad height={300} offset={300} once>
           <img className="project-image" src={image} alt={alt} />
         </LazyLoad>
         <div className="project-background" />
@@ -60,13 +60,7 @@ class ProjectCard extends React.PureComponent {
 class Projects extends React.PureComponent {
   render() {
     const { projects } = this.props;
-    return (
-      <div className="projects-container">
-        {projects.map(proj => (
-          <ProjectCard title={proj.title} description={proj.description} skills={proj.skills} links={proj.links} image={proj.image} alt={proj.alt} key={proj.title} />
-        ))}
-      </div>
-    );
+    return <div className="projects-container">{projects.map(proj => <ProjectCard title={proj.title} description={proj.description} skills={proj.skills} links={proj.links} image={proj.image} alt={proj.alt} key={proj.title} />)}</div>;
   }
 }
 
