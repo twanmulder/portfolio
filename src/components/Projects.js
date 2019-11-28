@@ -28,9 +28,13 @@ class ProjectLinks extends React.PureComponent {
         <a href={preview} rel="noopener" target="_blank" className="project-link">
           Live Demo <FontAwesomeIcon icon="external-link-alt" />
         </a>
-        <a href={github} rel="noopener" target="_blank" className="project-link secondary">
-          <FontAwesomeIcon icon={['fab', 'github']} /> View Source
-        </a>
+        {github ? (
+          <a href={github} rel="noopener" target="_blank" className="project-link secondary">
+            <FontAwesomeIcon icon={['fab', 'github']} /> View Source
+          </a>
+        ) : (
+          false
+        )}
       </div>
     );
   }

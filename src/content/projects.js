@@ -18,14 +18,12 @@ export default [
     image: stormdigital,
     alt: 'storm digital',
     links: {
-      github: 'https://github.com/jengelstengel/anytimers-temp',
       preview: 'https://www.stormdigital.nl/',
     },
   },
   {
     title: 'KLM 100 Year Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
-    description:
-      'The Dutch airline KLM celebrated their 100th birthday in October 2019. Because of this, they launched a campaign spanning multiple marketing channels. The "Radical" that I built received over 4 million views in a span of 2 days, raising conversions by 34%.<br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+    description: 'The Dutch airline KLM celebrated their 100th birthday in October 2019. Because of this, they launched a campaign spanning multiple marketing channels. The "Radical" that I built received over 4 million views in a span of 2 days, raising conversions by 34%.',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
     image: klm,
     alt: 'KLM 100 Year Campaign',
@@ -35,8 +33,7 @@ export default [
   },
   {
     title: 'KLM Blue Fly Days Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
-    description:
-      'Every single year, KLM sets has their "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.<br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+    description: 'Every single year, KLM sets has their "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
     image: zebra,
     alt: 'zebras in a savannah',
@@ -58,8 +55,7 @@ export default [
   },
   {
     title: 'VV Potetos',
-    description:
-      'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website. This project was in co-op with Convident. <br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
+    description: 'This case involved testing, redesigning, and again testing a website from a local soccer club from Groningen. The final design focused mainly on re-doing the information structure and refreshing the look of the website. This project was in co-op with Convident.',
     skills: ['PHP', 'HTML5', 'CSS3', 'JavaScript', 'Usability Testing'],
     image: potetos,
     alt: 'VV Potetos',
