@@ -47,7 +47,7 @@ class ProjectCard extends React.PureComponent {
         </LazyLoad>
         <div className="project-background" />
         <div className="project-content">
-          <h3>{title}</h3>
+          <h3 dangerouslySetInnerHTML={{ __html: title }} />
           <p dangerouslySetInnerHTML={{ __html: description }} />
           <ProjectSkills skills={skills} />
           <ProjectLinks links={links} />

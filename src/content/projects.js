@@ -23,7 +23,7 @@ export default [
     },
   },
   {
-    title: 'KLM 100 Year Campaign',
+    title: 'KLM 100 Year Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
     description:
       'The Dutch airline KLM celebrated their 100th birthday in October 2019. Because of this, they launched a campaign spanning multiple marketing channels. The "Radical" that I built received over 4 million views in a span of 2 days, raising conversions by 34%.<br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
@@ -34,7 +34,7 @@ export default [
     },
   },
   {
-    title: 'KLM Blue Fly Days Campaign',
+    title: 'KLM Blue Fly Days Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
     description:
       'Every single year, KLM sets has their "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.<br /><br /> <span style="color:#bbb;">Source is private, sorry!</span>',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
