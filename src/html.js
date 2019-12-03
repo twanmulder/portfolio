@@ -20,12 +20,7 @@ class Html extends Component {
   render() {
     let css;
     if (process.env.NODE_ENV === `production`) {
-      css = (
-        <style
-          id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
-        />
-      );
+      css = <style id="gatsby-inlined-css" dangerouslySetInnerHTML={{ __html: stylesStr }} />;
     }
 
     return (
@@ -36,19 +31,13 @@ class Html extends Component {
           <meta name="referrer" content="origin" />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-          <link rel="stylesheet" href="scss/hover-min.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+          <link rel="stylesheet" href="scss/hover-min.css" />
           {css}
         </head>
         <body>
-          <div
-            id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
-          />
+          <div id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           {this.props.postBodyComponents}
         </body>
       </html>
