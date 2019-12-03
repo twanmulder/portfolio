@@ -63,27 +63,32 @@ a {
   }
 }
 
-.menu-wrapper{
+.menu-wrapper {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
   margin: 0 auto;
 
-  h2,a {
+  @include mobile {
+    width: 100%;
+  }
+
+  h2,
+  a {
     cursor: pointer;
   }
-  a{
+  a {
     color: var(--text-main);
     opacity: 0.5;
     transition: opacity 0.2s;
-    &:after{
+    &:after {
       border-color: transparent;
       width: 0;
       transition: all 0.2s;
     }
-    &:hover{
+    &:hover {
       opacity: 1;
-      &:after{
+      &:after {
         border-color: var(--blue-light);
         width: 50px;
       }
