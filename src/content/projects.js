@@ -1,8 +1,8 @@
-import portfolio from 'images/portfolio.webp';
+import portfolio from 'images/portfolio.png';
 import anytime from 'images/anytime.png';
-import potetos from 'images/potetos.webp';
-import reactcoin from 'images/reactcoin.webp';
-import universe from 'images/universe.webp';
+import potetos from 'images/potetos.png';
+import reactcoin from 'images/reactcoin.png';
+import universe from 'images/universe.png';
 import stormdigital from 'images/stormdigital.png';
 import klm from 'images/KLM.png';
 import zebra from 'images/zebra.png';
@@ -33,7 +33,7 @@ export default [
   },
   {
     title: 'KLM Blue Fly Days Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
-    description: 'Every single year, KLM sets has their "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.',
+    description: 'Every single year, KLM launches a  "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
     image: zebra,
     alt: 'zebras in a savannah',
@@ -78,7 +78,7 @@ export default [
   {
     title: 'Parallax Starry Universe',
     description:
-      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the CSS property &#39;perspective&#39; to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern',
+      'This tiny website was me starting to develop my skills in CSS. It was created for myself, just to practise. This website uses the CSS property &#39;perspective&#39; to create a parallax effect. The stars are drawn using very small radial gradiensts (2px by 2px), colouring them and repeating them as a pattern.',
     skills: ['HTML5', 'CSS3'],
     image: universe,
     alt: 'Parallax starry Universe',
