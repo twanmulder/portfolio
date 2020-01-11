@@ -1,3 +1,29 @@
+body {
+  --app-bg: #f6f9fc;
+
+  --white: #f6f6f6;
+
+  --blue: #0002ff;
+  --blue-rgb: 0, 82, 255;
+  --blue-light: #4069f9;
+  --blue-light-rgb: 64, 105, 249;
+
+  --terminal-bg: #0d0f17;
+  --project-card: #fff;
+  --project-svg: url('../images/project-background-white.svg');
+  --star-color: transparent;
+
+  --about-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  --project-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  --project-link-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  --project-link-shadow-hover: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
+  --text-main: #333d54;
+  --text-main-rgb: 51, 61, 84;
+  --text-step1: #b0b2b6;
+  --text-contrast: #f6f6f6;
+}
+
 body.light-theme {
   --app-bg: #f6f9fc;
 
