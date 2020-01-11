@@ -54,18 +54,23 @@
         box-sizing: border-box;
       }
 
-      h3 {
+      h3,
+      h4 {
         font-family: 'Montserrat', Open Sans, Segoe UI, sans-serif;
         font-weight: 700;
-        font-size: 1.8em;
         line-height: 38px;
+      }
+
+      h3 {
+        font-size: 1.8em;
         color: var(--text-main);
-        margin-top: 0;
-        margin-bottom: 35px;
       }
 
       h4 {
+        font-family: 'Montserrat', Open Sans, Segoe UI, sans-serif;
+        font-weight: 700;
         font-size: 0.6em;
+        line-height: 38px;
         color: var(--text-step1);
       }
 
@@ -111,6 +116,7 @@
       }
 
       p {
+        margin-top: 35px;
         margin-bottom: 30px;
         line-height: 27px;
         color: var(--text-main);
