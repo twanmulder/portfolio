@@ -22,7 +22,7 @@ export default [
     },
   },
   {
-    title: 'KLM 100 Year Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
+    title: 'KLM 100 Year Campaign <br/><h4>created at Storm Digital</h4>',
     description: 'The Dutch airline KLM celebrated their 100th birthday in October 2019. Because of this, they launched a campaign spanning multiple marketing channels. The "Radical" that I built received over 4 million views in a span of 2 days, raising conversions by 34%.',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
     image: klm,
@@ -32,7 +32,7 @@ export default [
     },
   },
   {
-    title: 'KLM Blue Fly Days Campaign <br/><h4 class="storm-digital">created at Storm Digital</h4>',
+    title: 'KLM Blue Fly Days Campaign <br/><h4>created at Storm Digital</h4>',
     description: 'Every single year, KLM launches a  "Blue Fly Days" campaign. Storm Digitals "Creatives" team designs and builds the digital creatives for this campaign. In November of 2019, I developed the HomePage Take-Over (HPTO) for this campaign.',
     skills: ['HTML5', 'CSS3', 'Javascript', 'Greensock'],
     image: zebra,
@@ -42,7 +42,7 @@ export default [
     },
   },
   {
-    title: 'Anytimers(.app) <br/><h4 class="storm-digital">Link to App Store coming soon!</h4>',
+    title: 'Anytimers(.app) <br/><h4>Link to App Store coming soon!</h4>',
     description: '"Anytimers" is a web- and mobile app me and a couple of friends built (and are still improving on) to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.',
     skills: ['HTML5', 'Sass', 'JavaScript', 'ReactJS', 'Redux', 'RESTful API'],
     image: anytimers,
