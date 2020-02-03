@@ -50,7 +50,7 @@ export default [
     alt: 'Anytime.rs',
     links: {
       github: 'https://github.com/jengelstengel/anytimers-temp',
-      preview: 'https://anytimers-temp.netlify.com/',
+      preview: 'https://anytimers.netlify.com/',
     },
   },
   {
