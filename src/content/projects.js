@@ -1,5 +1,5 @@
 import portfolio from 'images/portfolio.png';
-import anytime from 'images/anytime.png';
+import anytimers from 'images/anytimers.png';
 import potetos from 'images/potetos.png';
 import reactcoin from 'images/reactcoin.png';
 import universe from 'images/universe.png';
@@ -42,14 +42,13 @@ export default [
     },
   },
   {
-    title: 'Anytimers.nl',
-    description:
-      'This project is a web-app that me and some friends made to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.<br /><br /> <span style="color:#bbb;">Still a work in progress. Website is a placeholder at the moment!</span>',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Laravel'],
-    image: anytime,
+    title: 'Anytimers(.app) <br/><h4 class="storm-digital">Link to App Store coming soon!</h4>',
+    description: '"Anytimers" is a web- and mobile app me and a couple of friends built (and are still improving on) to track our "anytimers". We are currently working on upscaling it to accomodate for a larger userbase, first focussing on students around our age.',
+    skills: ['HTML5', 'Sass', 'JavaScript', 'ReactJS', 'Redux', 'RESTful API'],
+    image: anytimers,
     alt: 'Anytime.rs',
     links: {
-      github: 'https://github.com/jengelstengel/anytimers-temp',
+      github: 'https://github.com/jengelstengel/anytimers',
       preview: 'https://anytimers.netlify.com/',
     },
   },
