@@ -89,7 +89,7 @@ export default [
   {
     title: 'Portfolio',
     description: 'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS', 'Gatsby'],
     image: portfolio,
     alt: 'Portfolio',
     links: {
