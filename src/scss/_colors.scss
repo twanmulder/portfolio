@@ -50,8 +50,6 @@ body.light-theme {
   --text-contrast: #f6f6f6;
 }
 
-// DARK COLORS
-// @media (prefers-color-scheme: dark) {
 body.dark-theme {
   --app-bg: #0d0f16;
 
@@ -77,4 +75,3 @@ body.dark-theme {
   --text-step1: #b0b2b6;
   --text-contrast: #333d54;
 }
-// }
