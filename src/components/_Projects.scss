@@ -97,7 +97,7 @@
           font-weight: 600;
           box-sizing: border-box;
           background: var(--blue-light);
-          color: #fff;
+          color: var(--project-cta1-color);
 
           &:hover {
             background: var(--blue-light);
@@ -107,7 +107,7 @@
 
           &.secondary {
             background: #fff;
-            color: var(--blue-light);
+            color: var(--project-cta2-color);
             &:hover {
               background: #fff;
             }
@@ -132,7 +132,7 @@
 
         .project-skill {
           border-radius: 4px;
-          border: solid 2px rgba(var(--blue-light-rgb), 0.2);
+          border: solid 2px rgba(var(--blue-light-rgb), 0.3);
           padding: 8px;
           margin-right: 10px;
           margin-bottom: 10px;
