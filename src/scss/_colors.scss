@@ -1,12 +1,12 @@
 body {
-  --app-bg: #fcfbf6;
+  --app-bg: #f6f9fc;
 
   --white: #f6f6f6;
 
-  --blue: #fec150;
-  --blue-rgb: 254, 193, 80;
-  --blue-light: #fec150;
-  --blue-light-rgb: 254, 193, 80;
+  --blue: #0002ff;
+  --blue-rgb: 0, 82, 255;
+  --blue-light: #4069f9;
+  --blue-light-rgb: 64, 105, 249;
 
   --terminal-bg: #0d0f17;
   --project-card: #fff;
@@ -25,17 +25,19 @@ body {
 }
 
 body.light-theme {
-  --app-bg: #fcfbf6;
+  --app-bg: #f6f9fc;
 
   --white: #f6f6f6;
 
-  --blue: #fec150;
-  --blue-rgb: 254, 193, 80;
-  --blue-light: #fec150;
-  --blue-light-rgb: 254, 193, 80;
+  --blue: #0002ff;
+  --blue-rgb: 0, 82, 255;
+  --blue-light: #4069f9;
+  --blue-light-rgb: 64, 105, 249;
 
   --terminal-bg: #0d0f17;
   --project-card: #fff;
+  --project-cta1-color: #fff;
+  --project-cta2-color: #4069f9;
   --project-svg: url('../images/project-background-white.svg');
   --star-color: transparent;
 
@@ -62,6 +64,8 @@ body.dark-theme {
 
   --terminal-bg: #202022;
   --project-card: #202022;
+  --project-cta1-color: #202022;
+  --project-cta2-color: #202022;
   --project-svg: url('../images/project-background-black.svg');
   --star-color: #fff;
 

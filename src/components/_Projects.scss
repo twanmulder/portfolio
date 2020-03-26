@@ -97,7 +97,7 @@
           font-weight: 600;
           box-sizing: border-box;
           background: var(--blue-light);
-          color: #fff;
+          color: var(--project-cta1-color);
 
           &:hover {
             background: var(--blue-light);
@@ -107,7 +107,7 @@
 
           &.secondary {
             background: #fff;
-            color: var(--blue-light);
+            color: var(--project-cta2-color);
             &:hover {
               background: #fff;
             }
