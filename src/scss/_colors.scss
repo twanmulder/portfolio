@@ -1,12 +1,12 @@
 body {
-  --app-bg: #f6f9fc;
+  --app-bg: #fcfbf6;
 
   --white: #f6f6f6;
 
-  --blue: #0002ff;
-  --blue-rgb: 0, 82, 255;
-  --blue-light: #4069f9;
-  --blue-light-rgb: 64, 105, 249;
+  --blue: #fec150;
+  --blue-rgb: 254, 193, 80;
+  --blue-light: #fec150;
+  --blue-light-rgb: 254, 193, 80;
 
   --terminal-bg: #0d0f17;
   --project-card: #fff;
@@ -25,14 +25,14 @@ body {
 }
 
 body.light-theme {
-  --app-bg: #f6f9fc;
+  --app-bg: #fcfbf6;
 
   --white: #f6f6f6;
 
-  --blue: #0002ff;
-  --blue-rgb: 0, 82, 255;
-  --blue-light: #4069f9;
-  --blue-light-rgb: 64, 105, 249;
+  --blue: #fec150;
+  --blue-rgb: 254, 193, 80;
+  --blue-light: #fec150;
+  --blue-light-rgb: 254, 193, 80;
 
   --terminal-bg: #0d0f17;
   --project-card: #fff;
@@ -55,10 +55,10 @@ body.dark-theme {
 
   --white: #f6f6f6;
 
-  --blue: #0052ff;
-  --blue-rgb: 0, 82, 255;
-  --blue-light: #4069f9;
-  --blue-light-rgb: 64, 105, 249;
+  --blue: #fec150;
+  --blue-rgb: 254, 193, 80;
+  --blue-light: #fec150;
+  --blue-light-rgb: 254, 193, 80;
 
   --terminal-bg: #202022;
   --project-card: #202022;
