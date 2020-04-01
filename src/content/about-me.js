@@ -5,7 +5,7 @@ export default [
   },
   {
     input: 'Twan.contactInfo',
-    return: '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/twanmulder">GitHub</a>"]',
+    return: '["<a href="mailto:twan.mulder@gmail.com" target="_blank">twan.mulder@gmail.com</a>", "<a rel="noopener" target="_blank" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" target="_blank" href="https://github.com/twanmulder">GitHub</a>"]',
   },
   {
     input: 'Twan.interests',
