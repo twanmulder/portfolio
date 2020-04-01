@@ -1,5 +1,6 @@
 import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import ScrollReveal from 'scrollreveal';
 
 class ProjectSkill extends React.PureComponent {
   render() {
@@ -59,6 +60,15 @@ class ProjectCard extends React.PureComponent {
 }
 
 class Projects extends React.PureComponent {
+  componentDidMount() {
+    ScrollReveal().reveal('.project-card', {
+      opacity: 1,
+      origin: 'bottom',
+      distance: '100px',
+      easing: 'ease-in-out',
+    });
+  }
+
   render() {
     const { projects } = this.props;
     return <div className="projects-container">{projects.map(proj => <ProjectCard title={proj.title} description={proj.description} skills={proj.skills} links={proj.links} image={proj.image} alt={proj.alt} key={proj.title} />)}</div>;
