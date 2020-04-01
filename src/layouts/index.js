@@ -8,13 +8,13 @@ import 'fontawesome';
 const Layout = ({ children, data }) => (
   <div className="container-lg">
     <Helmet>
-      <html lang="en"></html>
+      <html lang="en" />
     </Helmet>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: "Twan Mulder's personal Portfolio website" },
-        { name: 'keywords', content: 'portfolio, projects, articles, Twan, Mulder' },
+        { name: 'description', content: 'Front-end Developer, CRO consultant, UI/UX enthousiast. - Twan Mulder.' },
+        { name: 'keywords', content: 'portfolio, projects, articles, Twan, Mulder, Twan Mulder, developer, front-end, CRO, UI, UX, UI/UX' },
         { name: 'google-site-verification', content: 'iSgOqOBK8bpK2T1u0LWkGcv2wOMYjECbKzNEl-IKGg0' },
       ]}
     />

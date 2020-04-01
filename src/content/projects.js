@@ -48,7 +48,7 @@ export default [
     image: anytimers,
     alt: 'Anytime.rs',
     links: {
-      github: 'https://github.com/jengelstengel/anytimers',
+      github: 'https://github.com/twanmulder/anytimers',
       preview: 'https://anytimers.netlify.com/',
     },
   },
@@ -59,7 +59,7 @@ export default [
     image: potetos,
     alt: 'VV Potetos',
     links: {
-      github: 'https://github.com/jengelstengel/vvpotetos',
+      github: 'https://github.com/twanmulder/vvpotetos',
       preview: 'https://vvpotetos.nl/',
     },
   },
@@ -70,7 +70,7 @@ export default [
     image: reactcoin,
     alt: 'React-Coin',
     links: {
-      github: 'https://github.com/jengelstengel/React-coin',
+      github: 'https://github.com/twanmulder/React-coin',
       preview: 'https://twan-react-coin.herokuapp.com/',
     },
   },
@@ -82,7 +82,7 @@ export default [
     image: universe,
     alt: 'Parallax starry Universe',
     links: {
-      github: 'https://github.com/jengelstengel/starry-universe',
+      github: 'https://github.com/twanmulder/starry-universe',
       preview: 'https://parallax-stars.netlify.com/',
     },
   },
@@ -93,7 +93,7 @@ export default [
     image: portfolio,
     alt: 'Portfolio',
     links: {
-      github: 'https://github.com/jengelstengel/portfolio',
+      github: 'https://github.com/twanmulder/portfolio',
       preview: 'https://www.twanmulder.com/',
     },
   },

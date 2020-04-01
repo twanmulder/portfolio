@@ -5,11 +5,11 @@ export default [
   },
   {
     input: 'Twan.contactInfo',
-    return: '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jengelstengel">github</a>"]',
+    return: '["<a href="mailto:twan.mulder@gmail.com">twan.mulder@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/twanmulder/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/twanmulder">GitHub</a>"]',
   },
   {
     input: 'Twan.interests',
-    return: '["front-end dev", "guitar", "fashion", "sneakers"]',
+    return: '["Front-end Dev", "CRO & UI/UX", "guitar", "sneakers"]',
   },
   {
     input: 'Twan.education',
