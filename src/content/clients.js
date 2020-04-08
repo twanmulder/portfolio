@@ -1,38 +1,33 @@
+import Volvo from 'images/clients/volvo_logo.png';
+import Audi from 'images/clients/audi_logo.png';
+import KLM from 'images/clients/klm_logo.png';
+import Takeaway from 'images/clients/takeaway_logo.png';
+import MasterCard from 'images/clients/mastercard_logo.png';
+import ABNAMRO from 'images/clients/abnamro_logo.png';
+
 export default [
   {
-    client: 'Volvo',
-    image: 'google.nl',
+    title: 'Volvo',
+    image: Volvo,
   },
   {
-    client: 'Audi',
-    image: 'google.nl',
+    title: 'Audi',
+    image: Audi,
   },
   {
-    client: 'Volkswagen',
-    image: 'google.nl',
+    title: 'KLM',
+    image: KLM,
   },
   {
-    client: 'KLM',
-    image: 'google.nl',
+    title: 'Takeaway',
+    image: Takeaway,
   },
   {
-    client: 'ŠKODA',
-    image: 'google.nl',
+    title: 'MasterCard',
+    image: MasterCard,
   },
   {
-    client: 'SEAT',
-    image: 'google.nl',
-  },
-  {
-    client: 'Takeaway',
-    image: 'google.nl',
-  },
-  {
-    client: 'ICS',
-    image: 'google.nl',
-  },
-  {
-    client: 'ABN AMRO',
-    image: 'google.nl',
+    title: 'ABN AMRO',
+    image: ABNAMRO,
   },
 ];

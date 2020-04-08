@@ -1,0 +1,30 @@
+.clients-container {
+  margin: 7rem auto 0;
+  display: flex;
+  // display: grid;
+  // grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  // grid-template-rows: 1fr 1fr 1fr 1fr;
+  // grid-column-gap: 2rem;
+  // grid-row-gap: 2rem;
+  font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+
+  .client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      filter: grayscale(100%);
+      transition: 0.15s filter ease-in-out;
+
+      &:hover {
+        filter: none;
+      }
+    }
+  }
+}
