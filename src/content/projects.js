@@ -13,8 +13,8 @@ export default [
   {
     title: 'Storm Digital',
     description:
-      'At the moment I am employed at Storm Digital, where I work as a creative developer. I work with Greensock and Vue on a daily basis, building dynamic display advertisements. Besides creating these, I also help out our Conversion Rate Optimalitzation (CRO) team build their A/B tests.',
-    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'CRO'],
+      'At the moment I am employed at Storm Digital, where I work as a creative developer & technical CRO consultant. I work with Greensock and Vue on a daily basis, building personalised and dynamic display advertisements. Besides creating these, I support our Conversion Rate Optimization (CRO) team on a technical level, developing new ways to optimize the experience of our clients users.',
+    skills: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'Greensock', 'CRO', 'Consultancy'],
     image: stormdigital,
     alt: 'storm digital',
     links: {
