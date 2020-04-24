@@ -20,7 +20,7 @@ class Navbar extends React.PureComponent {
         <ThemeToggle />
         <nav className="navbar" ref="navbar">
           <Scrollchor to="#projects">Projects</Scrollchor>
-          <a href="https://medium.com/@toktoktwan" target="_blank" rel="noreferrer">
+          <a href="https://thatsanegg.com" target="_blank" rel="noreferrer">
             Articles
           </a>
           <Scrollchor to="#contact">Contact</Scrollchor>
