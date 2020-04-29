@@ -19,7 +19,9 @@ export default class Home extends React.PureComponent {
         <Navbar />
         <Hero />
         <About statements={statements} />
-        <h2 id="clients" className="section-title">Some really cool clients I've been lucky to work for:</h2>
+        <h2 id="clients" className="section-title">
+          Some really cool clients I've been lucky to work with:
+        </h2>
         <Clientoverview clients={clients} />
         <div className="menu-wrapper">
           <h2 id="projects" className="section-title">
