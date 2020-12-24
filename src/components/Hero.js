@@ -40,10 +40,10 @@ export default function Hero() {
       <div className="container container h-full flex flex-col" style={{ opacity: textOpacity }}>
         <article className="h-full flex flex-col justify-center items-start">
           <h1 className="leading-6 text-gray-600 text-lg uppercase tracking-wider mb-4">Twan Mulder</h1>
-          <h2 className="text-2xl md:text-3xl text-white font-bold">{wrapWordsInSpans("Developer & CRO Specialist from Amsterdam, NL", 1)}</h2>
+          <h2 className="text-2xl md:text-3xl text-white font-bold">{wrapWordsInSpans("Developer & CRO Specialist from Groningen, NL", 1)}</h2>
           <h2 className="text-2xl md:text-3xl text-white font-bold mb-8">
             {wrapWordsInSpans("Currently @", 2)}
-            <a className="hover:text-blue-600 transition-colors" href="https://www.stormdigital.nl/">
+            <a className="hover:text-blue-600 transition-colors" href="https://www.stormdigital.nl/" target="_blank" rel="noreferrer">
               {wrapWordsInSpans("Storm Digital, part of Accenture Interactive", 2)}
             </a>
           </h2>
