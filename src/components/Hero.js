@@ -61,7 +61,7 @@ export default function Hero() {
             <a className="border border-blue-600 bg-blue-600 text-white text-center rounded-full py-2 px-8 text-sm opacity-0 animate-fade-in transition-colors hover:border-blue-700 hover:bg-blue-700 " href="#about">
               more about me
             </a>
-            <a className="border rounded-full text-white text-center py-2 px-8 text-sm mt-4 sm:ml-4 sm:mt-0 opacity-0 animate-fade-in transition-colors hover:border-gray-300 hover:text-gray-300" href="https://twitter.com/toktoktwan" target="_blank" rel="noreferrer">
+            <a className="border rounded-full text-white text-center py-2 px-8 text-sm mt-4 sm:ml-4 sm:mt-0 opacity-0 animate-fade-in transition-colors hover:border-gray-300 hover:text-gray-300" href="https://twitter.com/toktoktwan" target="_blank" rel="noopener noreferrer">
               follow me on twitter
             </a>
           </div>

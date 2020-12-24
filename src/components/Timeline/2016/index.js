@@ -5,7 +5,7 @@ export function Year2016() {
   return (
     <>
       <DateEntry title="2016" />
-      <TimelineEntry title="Start university" timestamp="September 1, 2016" Icon={Book} tint="blue">
+      <TimelineEntry title="Start University" timestamp="September 1, 2016" Icon={Book} tint="blue">
         <Notes>
           <p>Started studying Communication & Multi-media Design at the Hanze University of Applied Sciences.</p>
         </Notes>
