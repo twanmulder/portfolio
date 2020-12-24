@@ -2,7 +2,7 @@ import { GitHub, Twitter, Linkedin } from "react-feather"
 
 export default function Footer() {
   return (
-    <footer className="text-gray-700 bg-white">
+    <footer className="text-gray-700 bg-white" id="socials">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <p className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span className="ml-3 text-xl font-bold">Twan Mulder</span>
