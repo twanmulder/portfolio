@@ -2,7 +2,7 @@ import twan from "../assets/twan_transparent.png"
 
 export default function About() {
   return (
-    <section className="sticky top-20 self-start" style={{ maxWidth: "180px" }} id="#about">
+    <section className="sticky top-20 self-start hidden md:block" style={{ maxWidth: "180px" }} id="#about">
       <div className=" overflow-hidden rounded-sm mb-8" style={{ backgroundColor: "#fec150" }}>
         <img src={twan} alt="headshot of Twan Mulder" />
       </div>

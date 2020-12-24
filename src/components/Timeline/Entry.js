@@ -1,22 +1,22 @@
 function getTint(color) {
   switch (color) {
     case "red":
-      return "text-red-800 dark:text-red-200 bg-red-500 bg-opacity-20"
+      return "text-red-800 bg-red-500 bg-opacity-20"
     case "blue":
-      return "text-blue-800 dark:text-blue-200 bg-blue-500 bg-opacity-20"
+      return "text-blue-800 bg-blue-500 bg-opacity-20"
     case "green":
-      return "text-green-800 dark:text-green-200 bg-green-500 bg-opacity-20"
+      return "text-green-800 bg-green-500 bg-opacity-20"
     case "purple":
-      return "text-purple-800 dark:text-purple-200 bg-purple-500 bg-opacity-20"
+      return "text-purple-800 bg-purple-500 bg-opacity-20"
     case "indigo":
-      return "text-indigo-800 dark:text-indigo-200 bg-indigo-500 bg-opacity-20"
+      return "text-indigo-800 bg-indigo-500 bg-opacity-20"
     case "pink":
-      return "text-pink-800 dark:text-pink-200 bg-pink-500 bg-opacity-20"
+      return "text-pink-800 bg-pink-500 bg-opacity-20"
     case "yellow":
-      return "text-yellow-800 dark:text-yellow-200 bg-yellow-500 bg-opacity-20"
+      return "text-yellow-800 bg-yellow-500 bg-opacity-20"
     case "gray":
     default:
-      return "text-primary bg-gray-200 dark:bg-gray-800"
+      return "text-primary bg-gray-200"
   }
 }
 
@@ -33,10 +33,10 @@ export function TimelineEntry({ children = null, title, timestamp, Icon, tint = 
     <div className="flex mb-12 md:mb-12 timeline-item">
       {/* Icon and dividing line */}
       <div className="flex flex-col items-center">
-        <div className={`flex justify-center p-3 rounded-full align-center border-4 border-white dark:border-gray-1000 ${getTint(tint)}`}>
+        <div className={`flex justify-center p-3 rounded-full align-center border-4 border-white ${getTint(tint)}`}>
           <Icon size={16} />
         </div>
-        {divider && <div className="flex-1 w-px -mb-12 bg-gray-200 md:-mb-12 dark:bg-gray-800 timeline-stroke" />}
+        {divider && <div className="flex-1 w-px -mb-12 bg-gray-200 md:-mb-12 timeline-stroke" />}
       </div>
 
       <div className="flex flex-col flex-1 ml-4 space-y-4">
@@ -53,9 +53,9 @@ export function TimelineEntry({ children = null, title, timestamp, Icon, tint = 
 export function DateEntry({ title }) {
   return (
     <div className="flex items-center mb-8 timeline-item">
-      <div className="w-12 mr-4 bg-gray-200 flex-0 dark:bg-gray-800 timeline-stroke" />
+      <div className="w-12 mr-4 bg-gray-200 flex-0 timeline-stroke" />
       <p className="text-2xl font-bold">{title}</p>
-      <div className="flex-1 h-px ml-4 bg-gray-200 dark:bg-gray-800 timeline-stroke" />
+      <div className="flex-1 h-px ml-4 bg-gray-200 timeline-stroke" />
     </div>
   )
 }

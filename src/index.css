@@ -10,3 +10,7 @@
     max-width: 1024px;
   }
 }
+
+.btn {
+  @apply border border-blue-600 bg-white text-blue-600 text-center rounded-md py-2 px-8 text-sm transition-colors duration-200 hover:text-white hover:bg-blue-600;
+}
