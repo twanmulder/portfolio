@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}
