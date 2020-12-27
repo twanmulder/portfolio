@@ -37,7 +37,7 @@ export default function Hero() {
     return words.map((word) => {
       return (
         <div key={word} className="overflow-hidden inline-block">
-          <span className={`transform-gpu translate-y-full animate-slide-up-${delay} inline-block`} key={word}>
+          <span className={`translate-y-full animate-slide-up-${delay} inline-block`} key={word}>
             {word}&nbsp;
           </span>
         </div>
