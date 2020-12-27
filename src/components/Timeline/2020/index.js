@@ -7,7 +7,7 @@ export function Year2020() {
   return (
     <>
       <DateEntry title="2020" />
-      <TimelineEntry title="Reached 100k unique reads on my Medium articles" timestamp="Dec 24, 2020" Icon={Award} tint="yellow">
+      <TimelineEntry title="Reached 100k unique reads on Medium" timestamp="Dec 24, 2020" Icon={Award} tint="yellow">
         <Notes>
           <p>After publishing articles for multiple publications, they have been able to gain over 100k unique reads on Medium.</p>
         </Notes>
@@ -30,7 +30,7 @@ export function Year2020() {
       </TimelineEntry>
       <TimelineEntry title={`Reached my first 1000 unique pageviews on "That's an Egg"`} timestamp="May 11, 2020" Icon={Award} tint="yellow">
         <Notes>
-          <p>Almost a month after releasing my blog and publishing 5 articles, I've been able to gain my first 1000 unique pageviews on "That's an Egg".</p>
+          <p>Almost a month after releasing my blog and publishing the first 5 articles, I've been able to gain my first 1000 unique pageviews on "That's an Egg".</p>
         </Notes>
       </TimelineEntry>
       <TimelineEntry title={`Published "That's an Egg"`} timestamp="April 18, 2020" Icon={Zap} tint="blue">
