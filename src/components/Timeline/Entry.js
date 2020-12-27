@@ -41,7 +41,7 @@ export function TimelineEntry({ children = null, title, timestamp, Icon, tint = 
 
       <div className="flex flex-col flex-1 ml-4 space-y-4">
         <div className="flex flex-col pt-1 contents-center">
-          <span className="font-bold">{title}</span>
+          <h3 className="font-bold">{title}</h3>
           {timestamp && <span className="text-sm text-gray-600">{timestamp}</span>}
         </div>
         <div className="flex flex-col space-y-4 timeline-full-width">{children}</div>
@@ -54,7 +54,7 @@ export function DateEntry({ title }) {
   return (
     <div className="flex items-center mb-8 timeline-item">
       <div className="w-12 mr-4 bg-gray-200 flex-0 timeline-stroke" />
-      <p className="text-2xl font-bold">{title}</p>
+      <h2 className="text-2xl font-bold">{title}</h2>
       <div className="flex-1 h-px ml-4 bg-gray-200 timeline-stroke" />
     </div>
   )
