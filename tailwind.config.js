@@ -16,17 +16,9 @@ module.exports = {
         "fade-in": {
           "100%": { opacity: "1" },
         },
-        "slide-up-1": {
-          "100%": { transform: "translate3d(0, 0, 0)" },
-        },
-        "slide-up-2": {
-          "100%": { transform: "translate3d(0, 0, 0)" },
-        },
       },
       animation: {
         "fade-in": "fade-in 1s ease-out 1.4s forwards",
-        "slide-up-1": "slide-up-1 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s forwards",
-        "slide-up-2": "slide-up-2 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s forwards",
       },
       typography: {
         DEFAULT: {
