@@ -46,7 +46,7 @@ export default function Hero() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 -z-1 bg-gray-900 h-19/20-screen md:h-screen py-8">
+    <header className="fixed top-0 left-0 right-0 -z-1 bg-gray-900 h-9/10-screen md:h-screen py-8">
       <div className="container container h-full flex flex-col" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
         <article className="h-full flex flex-col justify-center items-start">
           <h1 className="leading-6 text-gray-400 text-lg uppercase tracking-wider mb-4">Twan Mulder</h1>

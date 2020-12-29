@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       height: {
-        "19/20-screen": "95vh",
+        "9/10-screen": "90vh",
       },
       zIndex: {
         "-1": "-1",
