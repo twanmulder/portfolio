@@ -10,7 +10,7 @@ export function Year2021() {
           <p>Adding an amazing README to your GitHub project is a great way of introducing new people to the codebase. That's why I've gathered some of the best to get you started in just a few seconds.</p>
         </Notes>
         <ButtonSet>
-          <a href="https://www.thatsanegg.com/your-website-sucks?href=twanmulder.com" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto btn">
+          <a href="https://www.readme-templates.com/" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto btn">
             <span>view project</span>
           </a>
         </ButtonSet>
