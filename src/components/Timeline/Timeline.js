@@ -2,10 +2,12 @@ import { Year1996 } from "./1996"
 import { Year2016 } from "./2016"
 import { Year2019 } from "./2019"
 import { Year2020 } from "./2020"
+import { Year2021 } from "./2021"
 
 export default function Timeline() {
   return (
     <section className="timeline flex flex-col w-full max-w-xl mx-auto relative">
+      <Year2021 />
       <Year2020 />
       <Year2019 />
       <Year2016 />
