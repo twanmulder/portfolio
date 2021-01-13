@@ -1,5 +1,6 @@
 import About from "./About"
 import Timeline from "./Timeline/Timeline.js"
+import CurrentlyListening from "./CurrentlyListening"
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
         <About />
         <Timeline />
       </div>
+      <CurrentlyListening />
     </main>
   )
 }
