@@ -29,7 +29,7 @@ export default function CurrentlyListening() {
   }, [lastFM])
 
   return (
-    <div className="container pt-20">
+    <div className="container pt-40">
       <div className="border-2 border-blue-500 rounded-3xl px-8 pb-8">
         <p className="text-blue-500 bg-white px-4 inline-flex items-center text-lg font-bold transform-gpu -translate-y-4">
           <Music size={24} className="mr-2" />
