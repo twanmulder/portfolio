@@ -59,7 +59,7 @@ export default function CurrentlyListening() {
           <div className="flex items-center justify-center flex-col">
             <h2 className="font-bold text-xl">Nothing...</h2>
             <p>Do you know a good song I should listen to?</p>
-            <a className="mt-4 border border-blue-600 bg-blue-600 text-white text-center rounded-full py-2 px-8 text-sm transition-colors hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan">
+            <a className="mt-4 border border-blue-600 bg-blue-600 text-white text-center rounded-full py-2 px-8 text-sm transition-colors hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan" target="_blank" rel="noreferrer noopener">
               let me know!
             </a>
           </div>
