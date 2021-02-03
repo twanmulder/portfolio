@@ -5,7 +5,7 @@ import volkswagen from "../assets/clients/volkswagen.svg"
 
 export default function Clients() {
   return (
-    <section className="container mx-auto pt-40">
+    <section className="container pt-40 mx-auto">
       <div className="flex flex-col w-full text-left lg:text-center">
         <h1 className="text-2xl font-semibold text-blue-500 title-font">
           Some cool companies&nbsp;

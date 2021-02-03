@@ -30,25 +30,25 @@ export default function CurrentlyListening() {
 
   return (
     <div className="container pt-40">
-      <div className="border-2 border-blue-500 rounded-3xl px-8 pb-8">
-        <p className="text-blue-500 bg-white px-4 inline-flex items-center text-lg font-bold transform-gpu -translate-y-4">
+      <div className="px-8 pb-8 border-2 border-blue-500 rounded-3xl">
+        <p className="inline-flex items-center px-4 text-lg font-bold text-blue-500 -translate-y-4 bg-white transform-gpu">
           <Music size={24} className="mr-2" />
           Now listening to
         </p>
         {lastFM.status === "connecting" && (
           <div className="flex items-center">
-            <div className="song-art h-20 w-20 rounded bg-gray-100 text-gray-200 flex items-center justify-center">
+            <div className="flex items-center justify-center w-20 h-20 text-gray-200 bg-gray-100 rounded song-art">
               <Music size={40} />
             </div>
             <div className="ml-4">
-              <p className="text-lg bg-gray-100 w-60 h-6 mb-2 animate-pulse"></p>
-              <p className="bg-gray-100 w-40 h-6 animate-pulse"></p>
+              <p className="h-6 mb-2 text-lg bg-gray-100 w-60 animate-pulse"></p>
+              <p className="w-40 h-6 bg-gray-100 animate-pulse"></p>
             </div>
           </div>
         )}
         {lastFM.status === "playing" && (
           <div className="flex items-center">
-            <img className="song-art h-20 rounded" src={lastFM.song.art} alt={`Album cover of ${lastFM.song.art} by ${lastFM.song.artist}`} crossOrigin="anonymous" />
+            <img className="h-20 rounded song-art" src={lastFM.song.art} alt={`Album cover of ${lastFM.song.art} by ${lastFM.song.artist}`} crossOrigin="anonymous" />
             <div className="ml-4">
               <p className="text-lg">{lastFM.song.name}</p>
               <p className="text-gray-500">{lastFM.song.artist}</p>
@@ -56,10 +56,10 @@ export default function CurrentlyListening() {
           </div>
         )}
         {lastFM.status === "idle" && (
-          <div className="flex items-center justify-center flex-col">
-            <h2 className="font-bold text-xl">Nothing...</h2>
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-xl font-bold">Nothing...</h2>
             <p>Do you know a good song I should listen to?</p>
-            <a className="mt-4 border border-blue-600 bg-blue-600 text-white text-center rounded-full py-2 px-8 text-sm transition-colors hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan" target="_blank" rel="noreferrer noopener">
+            <a className="px-8 py-2 mt-4 text-sm text-center text-white transition-colors bg-blue-600 border border-blue-600 rounded-full hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan" target="_blank" rel="noreferrer noopener">
               let me know!
             </a>
           </div>

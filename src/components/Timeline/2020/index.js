@@ -37,7 +37,7 @@ export function Year2020() {
         <a target="_blank" rel="noopener noreferrer" href="https://www.thatsanegg.com/?href=twanmulder.com">
           <div className="flex flex-col overflow-hidden transition-shadow bg-white rounded-md shadow md:flex-row hover:shadow-lg">
             <div className="flex flex-col justify-start px-3 py-3 space-y-2 md:w-1/2">
-              <h4 className="px-2 pt-2 font-bold text-lg">That's an Egg</h4>
+              <h4 className="px-2 pt-2 text-lg font-bold">That's an Egg</h4>
               <p className="flex-1 px-2">Released my very own, personal blog called "That's an Egg". Here, I write about web-development focussed on beginner friendly content.</p>
               <span />
               <div className="btn">view blog</div>

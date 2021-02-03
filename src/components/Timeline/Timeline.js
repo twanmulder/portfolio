@@ -6,7 +6,7 @@ import { Year2021 } from "./2021"
 
 export default function Timeline() {
   return (
-    <section className="timeline flex flex-col w-full max-w-xl mx-auto relative">
+    <section className="relative flex flex-col w-full max-w-xl mx-auto timeline">
       <Year2021 />
       <Year2020 />
       <Year2019 />

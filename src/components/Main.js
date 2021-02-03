@@ -5,7 +5,7 @@ import CurrentlyListening from "./CurrentlyListening"
 
 export default function Main() {
   return (
-    <main className="bg-white pb-20 mt-screen" id="about">
+    <main className="pb-20 bg-white mt-screen" id="about">
       <div className="container flex">
         <About />
         <Timeline />
