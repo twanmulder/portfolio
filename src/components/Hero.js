@@ -50,11 +50,11 @@ export default function Hero() {
       <div className="container flex flex-col h-full" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
         <article className="flex flex-col items-start justify-center h-full">
           <h1 className="mb-4 text-lg leading-6 tracking-wider text-gray-400 uppercase">Twan Mulder</h1>
-          <h2 className="text-2xl font-bold text-white md:text-3xl">{wrapWordsInSpans("Developer & CRO Specialist from Groningen, NL", 1)}</h2>
+          <h2 className="text-2xl font-bold text-white md:text-3xl">{wrapWordsInSpans("Developer & Product Specialist from Groningen, NL", 1)}</h2>
           <h2 className="mb-8 text-2xl font-bold text-white md:text-3xl">
             {wrapWordsInSpans("Currently @", 2)}
             <a offset="300" className="transition-colors hover:text-blue-600" href="https://www.stormdigital.nl/" target="_blank" rel="noreferrer">
-              {wrapWordsInSpans("Storm Digital, part of Accenture Interactive", 2)}
+              {wrapWordsInSpans("Framer", 2)}
             </a>
           </h2>
           <div className="flex flex-col sm:flex-row">

@@ -8,7 +8,7 @@ export default function About() {
       </div>
       <p className="mb-1 text-sm tracking-wide text-gray-500 uppercase">About</p>
       <h2 className="mb-1 font-bold">Twan Mulder</h2>
-      <p className="text-sm text-gray-500">Developer & CRO Specialist who loves writing and creating enticing experiences | Employed at Storm Digital, part of Accenture Interactive</p>
+      <p className="text-sm text-gray-500">Developer & Product Specialist who loves writing and creating enticing experiences | Employed at Framer</p>
     </section>
   )
 }
