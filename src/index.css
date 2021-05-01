@@ -12,7 +12,7 @@
 }
 
 .btn {
-  @apply border border-blue-600 bg-white text-blue-600 text-center rounded-md py-2 px-8 text-sm transition-colors duration-200 hover:text-white hover:bg-blue-600;
+  @apply px-8 py-2 text-sm text-center text-blue-600 transition-colors duration-200 bg-white border border-blue-600 rounded-md hover:text-white hover:bg-blue-600;
 }
 
 .timeline > div:first-child {
@@ -35,10 +35,39 @@ html {
   }
 }
 
+.hero-title {
+  font-size: 6vmin;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 5vmin;
+}
+
+@media (min-width: 800px) {
+  .hero-title {
+    font-size: 5vmin;
+  }
+
+  .hero-subtitle {
+    font-size: 4vmin;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 6vmin;
+  }
+
+  .hero-subtitle {
+    font-size: 5vmin;
+  }
+}
+
 .slide-up-1 {
-  animation: slide-up 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s forwards;
+  animation: slide-up 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s forwards;
 }
 
 .slide-up-2 {
-  animation: slide-up 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s forwards;
+  animation: slide-up 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 1s forwards;
 }
