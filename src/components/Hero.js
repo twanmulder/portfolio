@@ -31,14 +31,15 @@ export default function Hero() {
     }
   })
 
-  const wrapWordsInSpans = (text, delay) => {
+  const wrapWordsInSpans = (text, delay, addUnderline) => {
     const words = text.split(" ")
 
-    return words.map((word) => {
+    return words.map((word, index) => {
       return (
         <div key={word} className="inline-block overflow-hidden">
-          <span className={`transform-gpu translate-y-full slide-up-${delay} inline-block`} key={word}>
-            {word}&nbsp;
+          <span className={`transform-gpu translate-y-full slide-up-${delay} inline-block ${addUnderline && "underline"}`} key={word}>
+            {word}
+            {index < words.length - 1 && `\xa0`}
           </span>
         </div>
       )
@@ -53,8 +54,8 @@ export default function Hero() {
           <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
           <h2 className="font-bold text-white hero-title">
             {wrapWordsInSpans("Currently @", 2)}
-            <a className="transition-colors hover:text-blue-600" href="https://www.stormdigital.nl/" target="_blank" rel="noreferrer">
-              {wrapWordsInSpans("Framer", 2)}
+            <a className="transition-colors hover:text-blue-600" href="https://www.framer.com/" target="_blank" rel="noreferrer">
+              {wrapWordsInSpans("Framer", 2, true)}
             </a>
           </h2>
         </article>
