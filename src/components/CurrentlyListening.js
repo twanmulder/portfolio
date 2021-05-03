@@ -30,8 +30,8 @@ export default function CurrentlyListening() {
 
   return (
     <div className="container pt-40">
-      <div className="px-8 pb-8 border-2 border-blue-500 rounded-3xl">
-        <p className="inline-flex items-center px-4 text-lg font-bold text-blue-500 -translate-y-4 bg-white transform-gpu">
+      <div className="px-8 pb-8 border-2 border-blue-550 rounded-3xl">
+        <p className="inline-flex items-center px-4 text-lg font-bold -translate-y-4 bg-white text-blue-550 transform-gpu">
           <Music size={24} className="mr-2" />
           Now listening to
         </p>
@@ -59,7 +59,7 @@ export default function CurrentlyListening() {
           <div className="flex flex-col items-center justify-center">
             <h2 className="text-xl font-bold">Nothing...</h2>
             <p>Do you know a good song I should listen to?</p>
-            <a className="px-8 py-2 mt-4 text-sm text-center text-white transition-colors bg-blue-600 border border-blue-600 rounded-full hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan" target="_blank" rel="noreferrer noopener">
+            <a className="px-8 py-2 mt-4 text-sm text-center text-white transition-colors border rounded-full bg-blue-550 border-blue-550 hover:border-blue-700 hover:bg-blue-700" href="https://twitter.com/messages/compose?recipient_id=843572134110740480&text=Hey Twan, you should listen to:" data-screen-name="@toktoktwan" target="_blank" rel="noreferrer noopener">
               let me know!
             </a>
           </div>

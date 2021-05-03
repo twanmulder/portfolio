@@ -12,7 +12,7 @@
 }
 
 .btn {
-  @apply px-8 py-2 text-sm text-center text-blue-600 transition-colors duration-200 bg-white border border-blue-600 rounded-md hover:text-white hover:bg-blue-600;
+  @apply px-8 py-2 text-sm text-center transition-colors duration-200 bg-white border rounded-md text-blue-550 border-blue-550 hover:text-white hover:bg-blue-550;
 }
 
 .timeline > div:first-child {

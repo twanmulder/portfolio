@@ -9,7 +9,7 @@ export default function Clients() {
   return (
     <section className="container pt-40 mx-auto">
       <div className="flex flex-col w-full text-left lg:text-center">
-        <h1 className="text-2xl font-semibold text-blue-500 title-font">
+        <h1 className="text-2xl font-semibold text-blue-550 title-font">
           Some cool companies&nbsp;
           <br className="md:hidden" />
           I've worked with.

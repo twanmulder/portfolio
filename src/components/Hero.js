@@ -54,7 +54,7 @@ export default function Hero() {
           <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
           <h2 className="font-bold text-white hero-title">
             {wrapWordsInSpans("Currently @", 2)}
-            <a className="transition-colors hover:text-blue-600" href="https://www.framer.com/" target="_blank" rel="noreferrer">
+            <a className="transition-opacity hover:opacity-70" href="https://www.framer.com/" target="_blank" rel="noreferrer">
               {wrapWordsInSpans("Framer", 2, true)}
             </a>
           </h2>
