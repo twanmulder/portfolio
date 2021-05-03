@@ -36,12 +36,12 @@ html {
 }
 
 .hero-title {
-  font-size: 6vmin;
+  font-size: 1.75rem;
   line-height: 1.2;
 }
 
 .hero-subtitle {
-  font-size: 5vmin;
+  font-size: 1rem;
 }
 
 @media (min-width: 800px) {
@@ -50,7 +50,7 @@ html {
   }
 
   .hero-subtitle {
-    font-size: 4vmin;
+    font-size: 1vmin;
   }
 }
 
@@ -60,7 +60,7 @@ html {
   }
 
   .hero-subtitle {
-    font-size: 5vmin;
+    font-size: 2vmin;
   }
 }
 

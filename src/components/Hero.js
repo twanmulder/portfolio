@@ -47,10 +47,10 @@ export default function Hero() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 py-8 bg-black -z-1 h-9/10-screen md:h-screen">
+    <header style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="fixed top-0 left-0 right-0 h-screen pt-8 pb-24 -z-1 md:pb-8">
       <div className="flex flex-col h-full px-8 md:px-48" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
         <article className="flex flex-col items-start justify-center h-full">
-          <h1 className="mb-4 tracking-wider text-white uppercase opacity-40">Hey, my name is Twan!</h1>
+          <h1 className="mb-4 tracking-wider text-white uppercase opacity-80 hero-subtitle">Hey, my name is Twan!</h1>
           <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
           <h2 className="font-bold text-white hero-title">
             {wrapWordsInSpans("Currently @", 2)}
