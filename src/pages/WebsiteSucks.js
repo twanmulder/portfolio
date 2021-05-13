@@ -22,34 +22,33 @@ export default function WebsiteSucks() {
 
   return (
     <>
-      <header style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="pt-40 pb-24">
+      <header style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="pt-40 pb-16">
         <nav></nav>
         <section className="flex items-center justify-between max-w-4xl px-12 mx-auto">
           <div>
-            <h1 className="font-black text-white text-7xl">
-              <span>Your</span>
+            <h1 className="text-5xl font-black text-white md:text-7xl">
+              Your
               <br />
-              <span>Website</span>
+              Website
               <br />
-              <span>Sucks</span>
+              Sucks
             </h1>
-            <h2 className="mt-2 text-3xl tracking-widest text-white uppercase opacity-75">And I'll help you fix it</h2>
+            <h2 className="mt-2 text-xl tracking-widest text-white uppercase opacity-75 md:text-3xl">And I'll help you fix it</h2>
             <div className="mt-8">
-              <div className="relative inline-block mr-6">
-                <a className="inline-block px-6 py-3 text-xl font-bold transition bg-white rounded-lg hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks">
+              <div className="relative block mr-6 md:inline-block">
+                <a className="inline-block w-full px-6 py-3 text-xl font-bold text-center transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks">
                   Buy the Book
                 </a>
                 <ButtonAccent />
               </div>
-              <a className="text-white transition hover:opacity-75" href="./your-website-sucks-sample.pdf" download>
+              <a className="inline-block mt-4 text-sm text-white transition hover:opacity-75 md:mt-0 md:text-base" href="./your-website-sucks-sample.pdf" download>
                 or get a chapter for free
               </a>
             </div>
           </div>
           <Book />
         </section>
-        {/* <section className="flex justify-between max-w-4xl px-12 pt-32 mx-auto"> */}
-        <section className="grid max-w-4xl grid-cols-3 px-12 pt-32 mx-auto">
+        <section className="grid max-w-4xl grid-rows-3 gap-4 px-12 pt-32 mx-auto md:gap-0 md:grid-cols-3">
           <article className="flex flex-col items-center text-center text-white">
             <div className="flex gap-1">
               <Star fill="#fff" size={16} />
@@ -83,7 +82,7 @@ export default function WebsiteSucks() {
         </section>
       </header>
       <main className="flex pb-32">
-        <section className="z-10 max-w-4xl p-12 mx-auto -mt-12 prose bg-white shadow-2xl rounded-3xl">
+        <section className="z-10 max-w-4xl p-8 mx-auto -mt-6 prose bg-white shadow-2xl md:-mt-16 md:p-12 rounded-3xl">
           <p className="text-center">
             <strong>Learn the 5 pillars of creating a website that gets you from visitors, to conversions.</strong>
           </p>
