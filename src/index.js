@@ -1,15 +1,28 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { BrowserRouter, Switch, Route } from "react-router-dom"
 
 import "./index.css"
 import "typeface-poppins"
 
-import App from "./App"
+import Home from "./pages/Home"
+import Book from "./pages/Book"
+import ScrollToTop from "./components/ScrollToTop"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <ScrollToTop />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/your-website-sucks">
+          <Book />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 )
