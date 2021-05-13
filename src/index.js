@@ -6,7 +6,7 @@ import "./index.css"
 import "typeface-poppins"
 
 import Home from "./pages/Home"
-import Book from "./pages/Book"
+import WebsiteSucks from "./pages/WebsiteSucks"
 import ScrollToTop from "./components/ScrollToTop"
 import reportWebVitals from "./reportWebVitals"
 
@@ -18,8 +18,8 @@ ReactDOM.render(
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/your-website-sucks">
-          <Book />
+        <Route path="/book">
+          <WebsiteSucks />
         </Route>
       </Switch>
     </BrowserRouter>
