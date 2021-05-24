@@ -23,9 +23,6 @@ export default function WebsiteSucks() {
 
   return (
     <>
-      <div className="absolute w-full p-4 text-xl text-center underline">
-        The new site is live! That means you get a <strong>50% discount</strong>, only today!
-      </div>
       <header style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="pt-40 pb-16">
         <nav></nav>
         <section className="flex items-center justify-between max-w-4xl px-12 mx-auto">
@@ -40,7 +37,7 @@ export default function WebsiteSucks() {
             <h2 className="mt-2 text-xl tracking-widest text-white uppercase opacity-75 md:text-3xl">And I'll help you fix it</h2>
             <div className="mt-8">
               <div className="relative block mr-6 md:inline-block">
-                <a className="inline-block w-full px-6 py-3 text-xl font-bold text-center transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks?coupon=NEWSITE">
+                <a className="inline-block w-full px-6 py-3 text-xl font-bold text-center transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks">
                   Buy the Book
                 </a>
                 <ButtonAccent />
@@ -143,7 +140,7 @@ export default function WebsiteSucks() {
               </a>
             </p>
           </div>
-          <a style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="block w-full px-6 py-3 mt-8 text-xl font-bold text-center text-white no-underline transition rounded-lg shadow-lg md:inline-block bg-blue-550 md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks?coupon=NEWSITE">
+          <a style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="block w-full px-6 py-3 mt-8 text-xl font-bold text-center text-white no-underline transition rounded-lg shadow-lg md:inline-block bg-blue-550 md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://flurly.com/p/your-website-sucks">
             Buy the Book
           </a>
         </section>
