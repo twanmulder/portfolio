@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { Helmet } from "react-helmet"
 
 import Book from "../components/Book"
 import Footer from "../components/Footer"
@@ -23,6 +24,21 @@ export default function WebsiteSucks() {
 
   return (
     <>
+      <Helmet>
+        <meta property="og:title" content="Your Website Sucks" />
+        <meta property="og:description" content="Learn the 5 pillars of creating a website that gets you from visitors, to conversions." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.twanmulder.com/meta-book.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="628" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@toktoktwan" />
+        <meta name="twitter:creator" content="Twan Mulder" />
+        <meta name="twitter:title" content="Your Website Sucks" />
+        <meta name="twitter:description" content="Learn the 5 pillars of creating a website that gets you from visitors, to conversions." />
+        <meta name="twitter:image" content="https://www.twanmulder.com/social-book.png" />
+      </Helmet>
       <header style={{ background: "linear-gradient(45deg, #FF7B00, #FFC300)" }} className="pt-40 pb-16">
         <nav></nav>
         <section className="flex items-center justify-between max-w-4xl px-12 mx-auto">
