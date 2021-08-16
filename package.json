@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^12.6.0",
     "autoprefixer": "^9.8.6",
     "fast-average-color": "^6.3.0",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.36",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.9",
