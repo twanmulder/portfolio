@@ -20,9 +20,26 @@
   margin-top: 75px;
 }
 
+.gradient-mesh {
+  background:#e099ff;
+  background-image:  
+radial-gradient(at 41% 10%, hsla(254,79%,60%,1) 0, transparent 42%),  
+radial-gradient(at 91% 33%, hsla(286,69%,68%,1) 0, transparent 46%),  
+radial-gradient(at 5% 92%, hsla(240,63%,65%,1) 0, transparent 56%),  
+radial-gradient(at 10% 65%, hsla(265,72%,67%,1) 0, transparent 59%),  
+radial-gradient(at 21% 49%, hsla(165,61%,76%,1) 0, transparent 54%);
+}
+
 @keyframes slide-up {
   100% {
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fade-up {
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 }
 
@@ -53,6 +70,10 @@
   .hero-subtitle {
     font-size: 2vmin;
   }
+}
+
+.fade-up {
+  animation: fade-up 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 1s forwards;
 }
 
 .slide-up-1 {
