@@ -53,10 +53,7 @@ export default function Hero() {
           <h1 className="mb-4 tracking-wider text-white uppercase opacity-80 hero-subtitle">Hey, my name is Twan!</h1>
           <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
           <h2 className="font-bold text-white hero-title">
-            {wrapWordsInSpans("Currently @", 2)}
-            <a className="transition-opacity hover:opacity-70" href="https://www.framer.com/" target="_blank" rel="noreferrer">
-              {wrapWordsInSpans("Framer", 2, true)}
-            </a>
+            {wrapWordsInSpans("Currently looking for a new role", 2)}
           </h2>
         </article>
         <span className="text-sm text-white opacity-0 animate-fade-in">
