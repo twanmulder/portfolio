@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import Timeline from "../components/Timeline/Timeline.js"
-import Contact from "../components/Contact"
 import Clients from "../components/Clients"
 import CurrentlyListening from "../components/CurrentlyListening"
 import Footer from "../components/Footer"
@@ -37,7 +36,6 @@ function Home() {
           <About />
           <Timeline />
         </div>
-        <Contact/>
         <Clients />
         <CurrentlyListening />
       </main>
