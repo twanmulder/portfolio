@@ -53,7 +53,9 @@ export default function Hero() {
           <h1 className="mb-4 tracking-wider text-white uppercase opacity-80 hero-subtitle">Hey, my name is Twan!</h1>
           <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
           <div className="transform-gpu translate-y-full opacity-0 fade-up">
-            <a href="#contact" style={{ color: "#004fff" }} className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-xl font-bold text-center text-black transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1">Get in Contact</a>
+            <a href="#contact" style={{ color: "#004fff" }} className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-xl font-bold text-center text-black transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1">
+              Get in Contact
+            </a>
           </div>
         </article>
         <span className="text-sm text-white opacity-0 animate-fade-in">
