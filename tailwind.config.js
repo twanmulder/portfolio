@@ -26,7 +26,7 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in": "fade-in 1s ease-out 1.4s forwards",
+        "fade-in": "fade-in 1s ease-out 1.8s forwards",
       },
       typography: {
         DEFAULT: {

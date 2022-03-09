@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { GitHub, Twitter } from "react-feather"
 
 export default function Hero() {
   const [textOpacity, setTextOpacity] = useState(1)
@@ -31,31 +32,25 @@ export default function Hero() {
     }
   })
 
-  const wrapWordsInSpans = (text, delay, addUnderline) => {
-    const words = text.split(" ")
-
-    return words.map((word, index) => {
-      return (
-        <div key={word} className="inline-block overflow-hidden">
-          <span className={`transform-gpu translate-y-full slide-up-${delay} inline-block ${addUnderline && "underline"}`} key={word}>
-            {word}
-            {index < words.length - 1 && `\xa0`}
-          </span>
-        </div>
-      )
-    })
-  }
-
   return (
-    <header style={{ background: "linear-gradient(45deg, #0037ff, #0088ff)" }} className="gradient-mesh border-8 border-white fixed top-0 left-0 right-0 h-screen pt-8 pb-24 -z-1 md:pb-8">
-      <div className="flex flex-col h-full px-8 md:px-48" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
+    <header style={{ background: "linear-gradient(45deg, #0037ff, #0088ff)" }} className="gradient-mesh header border-white fixed top-0 left-0 right-0 h-screen pt-8 pb-24 -z-1 md:pb-8">
+      <div className="flex flex-col h-full container" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
         <article className="flex flex-col items-start justify-center h-full">
-          <h1 className="mb-4 tracking-wider text-white uppercase opacity-80 hero-subtitle">Hey, my name is Twan!</h1>
-          <h2 className="font-bold text-white hero-title">{wrapWordsInSpans("I'm a Developer, Writer, and Creator", 1)}</h2>
-          <div className="transform-gpu translate-y-full opacity-0 fade-up">
-            <a href="#contact" style={{ color: "#004fff" }} className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-xl font-bold text-center text-black transition bg-white rounded-lg md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1">
-              Get in Contact
+          <h1 className="transform-gpu translate-y-full opacity-0 fade-up-partial mb-4 tracking-wider text-white uppercase hero-subtitle">Hey, my name is Twan!</h1>
+          <h2 className="transform-gpu translate-y-20 opacity-0 fade-up font-bold text-white hero-title mb-4 md:mb-8">
+            Front-end Developer focused on React <span className="opacity-50">who loves writing and creating enticing experiences</span>
+          </h2>
+
+          <div className="transform-gpu translate-y-full opacity-0 fade-up-2 flex items-center gap-4">
+            <a className="text-white transition-opacity hover:opacity-50" href="https://github.com/twanmulder" rel="noopener noreferrer" target="_blank">
+              <GitHub size={32} />
+              <span className="sr-only">Go to GitHub profile</span>
             </a>
+            <a className="text-white transition-opacity hover:opacity-50" href="https://twitter.com/toktoktwan" rel="noopener noreferrer" target="_blank">
+              <Twitter size={32} />
+              <span className="sr-only">Go to Twitter profile</span>
+            </a>
+            <p className="text-white">twan.mulder[at]gmail.com</p>
           </div>
         </article>
         <span className="text-sm text-white opacity-0 animate-fade-in">

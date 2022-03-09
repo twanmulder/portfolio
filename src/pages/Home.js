@@ -26,7 +26,7 @@ function Home() {
         <meta name="twitter:image" content="https://www.twanmulder.com/social-image.png" />
       </Helmet>
       <Hero />
-      <main className="pb-20 bg-white mt-screen">
+      <main className="pb-20 bg-white main">
         <div className="container">
           <p></p>
           <p></p>
