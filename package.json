@@ -18,7 +18,7 @@
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "5.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "typeface-poppins": "^1.1.13",
     "use-last-fm": "^0.4.0",
