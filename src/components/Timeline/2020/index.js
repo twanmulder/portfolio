@@ -1,7 +1,6 @@
-import { Award, Briefcase, Zap } from "react-feather"
+import { Award } from "react-feather"
 import { BlogPost } from "../BlogPost"
 import { ButtonSet, DateEntry, Notes, TimelineEntry } from "../Entry"
-import thatsanegg from "../../../assets/thatsanegg.png"
 
 export function Year2020() {
   return (
@@ -18,7 +17,7 @@ export function Year2020() {
         </ButtonSet>
       </TimelineEntry>
       <BlogPost timelinetitle="Wrote my first article for Daily.JS" timestamp="November 18, 2020" slug="https://medium.com/dailyjs/whats-the-difference-between-event-handlers-addeventlistener-in-js-963431f05c34" title="What’s the difference between Event Handlers & addEventListener in JS?" description="The difference is subtle but essential to know." />
-      <TimelineEntry title='Released the "Your Website Sucks" project' timestamp="Nov 15, 2020" Icon={Zap} tint="blue">
+      {/* <TimelineEntry title='Released the "Your Website Sucks" project' timestamp="Nov 15, 2020" Icon={Zap} tint="blue">
         <Notes>
           <p>A personal project where people send me their website/online product and I tell them why it sucks.</p>
         </Notes>
@@ -27,13 +26,13 @@ export function Year2020() {
             <span>view project</span>
           </a>
         </ButtonSet>
-      </TimelineEntry>
-      <TimelineEntry title={`Reached my first 1000 unique pageviews on "That's an Egg"`} timestamp="May 11, 2020" Icon={Award} tint="yellow">
+      </TimelineEntry> */}
+      {/* <TimelineEntry title={`Reached my first 1000 unique pageviews on "That's an Egg"`} timestamp="May 11, 2020" Icon={Award} tint="yellow">
         <Notes>
           <p>Almost a month after releasing my blog and publishing the first 5 articles, I've been able to gain my first 1000 unique pageviews on "That's an Egg".</p>
         </Notes>
-      </TimelineEntry>
-      <TimelineEntry title={`Published "That's an Egg"`} timestamp="April 18, 2020" Icon={Zap} tint="blue">
+      </TimelineEntry> */}
+      {/* <TimelineEntry title={`Published "That's an Egg"`} timestamp="April 18, 2020" Icon={Zap} tint="blue">
         <a target="_blank" rel="noopener noreferrer" href="https://www.thatsanegg.com/?href=twanmulder.com">
           <div className="flex flex-col overflow-hidden transition-shadow bg-white rounded-md shadow md:flex-row hover:shadow-lg">
             <div className="flex flex-col justify-start px-3 py-3 space-y-2 md:w-1/2">
@@ -47,12 +46,12 @@ export function Year2020() {
             </div>
           </div>
         </a>
-      </TimelineEntry>
-      <TimelineEntry title="Expanded to CRO Specialist" timestamp="Jan 1, 2020" Icon={Briefcase} tint="gray">
+      </TimelineEntry> */}
+      {/* <TimelineEntry title="Expanded to CRO Specialist" timestamp="Jan 1, 2020" Icon={Briefcase} tint="indigo">
         <Notes>
           <p>Expanded my work-role to Developer & CRO Specialist.</p>
         </Notes>
-      </TimelineEntry>
+      </TimelineEntry> */}
     </>
   )
 }

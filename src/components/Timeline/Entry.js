@@ -30,18 +30,18 @@ export function ButtonSet({ children }) {
 
 export function TimelineEntry({ children = null, title, timestamp, Icon, tint = "gray", divider = true }) {
   return (
-    <div className="flex mb-12 md:mb-12 timeline-item">
+    <div className="flex mb-20 timeline-item">
       {/* Icon and dividing line */}
       <div className="flex flex-col items-center">
         <div className={`flex justify-center p-3 rounded-full align-center border-4 border-white ${getTint(tint)}`}>
           <Icon size={16} />
         </div>
-        {divider && <div className="flex-1 w-px -mb-12 bg-gray-200 md:-mb-12 timeline-stroke" />}
+        {divider && <div className="flex-1 w-px -mb-12 bg-gray-200 md:-mb-20 timeline-stroke" />}
       </div>
 
       <div className="flex flex-col flex-1 ml-4 space-y-4">
         <div className="flex flex-col pt-1 contents-center">
-          <h3 className="font-bold">{title}</h3>
+          <h3 className="font-bold text-lg">{title}</h3>
           {timestamp && <span className="text-sm text-gray-600">{timestamp}</span>}
         </div>
         <div className="flex flex-col space-y-4 timeline-full-width">{children}</div>
@@ -54,7 +54,7 @@ export function DateEntry({ title }) {
   return (
     <div className="flex items-center mb-8 timeline-item">
       <div className="w-12 mr-4 bg-gray-200 flex-0 timeline-stroke" />
-      <h2 className="text-2xl font-bold">{title}</h2>
+      <h2 className="text-4xl font-bold">{title}</h2>
       <div className="flex-1 h-px ml-4 bg-gray-200 timeline-stroke" />
     </div>
   )

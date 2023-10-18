@@ -1,5 +1,5 @@
 import Twan from "../assets/twan_transparent.png"
-import { Twitter } from "react-feather"
+import { Linkedin } from "react-feather"
 
 export default function Contact() {
   return (
@@ -11,12 +11,12 @@ export default function Contact() {
             I'm looking for
             <br /> a new role!
           </p>
-          <p>I'm looking to apply my skills with modern web development technologies (such as React, GSAP, and Tailwind) in a new role.</p>
+          <p>I'm looking to apply my skills with modern web development technologies (such as React, TypeScript, and SASS) in a new role.</p>
           <p className="mt-2">Interested or want to get to know me a bit better?</p>
         </div>
         <div className="mt-8 md:mt-0">
-          <a className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-xl font-bold text-center text-black transition bg-white rounded-lg md:justify-start md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" href="https://twitter.com/toktoktwan" target="_blank" rel="noreferrer noopener">
-            <Twitter size={20} />
+          <a href="https://www.linkedin.com/in/twanmulder/" className="inline-flex items-center justify-center w-full px-6 py-3 mb-4 text-xl font-bold text-center text-black transition bg-white rounded-lg md:justify-start md:w-auto hover:opacity-90 transform-gpu hover:-translate-y-1" target="_blank" rel="noreferrer noopener">
+            <Linkedin size={20} />
             <span className="ml-2">Get in Touch</span>
           </a>
           <p>

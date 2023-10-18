@@ -9,7 +9,7 @@ export default function Footer() {
           <span className="ml-3 text-xl font-bold">Twan Mulder</span>
         </Link>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:py-2 sm:mt-0">
-          © 2021 —
+          © {new Date().getFullYear()} —
           <a className="ml-1 text-gray-600 transition-colors hover:text-blue-550" href="https://twitter.com/toktoktwan" rel="noopener noreferrer" target="_blank">
             @toktoktwan
           </a>
