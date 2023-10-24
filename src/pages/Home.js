@@ -22,7 +22,12 @@ function Home() {
       const percentage = (1 / (windowHeight * 0.6)) * (scrollFromTop - 0.4 * windowHeight)
 
       setBorderRadius(percentage * 200)
-      setMargin(percentage * 8)
+
+      if (percentage < 0) {
+        setMargin(0)
+      } else {
+        setMargin(percentage * 8)
+      }
     } else {
       setBorderRadius(0)
       setMargin(0)
