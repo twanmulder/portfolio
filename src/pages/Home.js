@@ -59,7 +59,7 @@ function Home() {
         <meta name="twitter:image" content="https://www.twanmulder.com/social-image.png" />
       </Helmet>
       <Hero />
-      <main style={{ borderRadius: `${borderRadius}px`, marginLeft: `${margin}rem`, marginRight: `${margin}rem` }} className="pb-20 bg-white main opacity-0 slide-up-main">
+      <main style={{ "--border-radius": `${borderRadius}px`, "--margin": `${margin}rem` }} className="pb-20 bg-white main opacity-0 slide-up-main">
         <div className="container flex">
           <About />
           <Timeline />

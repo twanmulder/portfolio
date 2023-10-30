@@ -4,11 +4,18 @@
 
 @layer utilities {
   .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 }
 
@@ -22,11 +29,17 @@
 
 .main {
   margin-top: 100vh;
+  margin-left: calc(0.1 * var(--margin));
+  margin-right: calc(0.1 * var(--margin));
+  border-radius: calc(0.25 * var(--border-radius));
 }
 
 @media (min-width: 1200px) {
   .main {
     margin-top: calc(100vh - 4rem);
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    border-radius: var(--border-radius);
   }
 }
 

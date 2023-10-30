@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="flex flex-col h-full container" style={{ opacity: textOpacity, transform: `translate3d(0, -${textTransform}px, 0)`, willChange: "opacity, transform" }}>
         <article className="flex flex-col items-start justify-center h-full ">
           <h1 className="transform-gpu translate-y-full opacity-0 fade-up-partial mb-4 tracking-wider uppercase text-md md:text-xl lg:text-2xl">Hey, my name is Twan!</h1>
-          <h2 className="transform-gpu translate-y-20 opacity-0 fade-up font-bold mb-4 md:mb-8 text-xl md:text-3xl lg:text-6xl">
+          <h2 className="transform-gpu translate-y-20 opacity-0 fade-up font-bold mb-4 md:mb-8 text-2xl md:text-3xl lg:text-6xl">
             Front-end Developer focused on React <span className="opacity-30">who loves writing and creating enticing experiences</span>
           </h2>
 
