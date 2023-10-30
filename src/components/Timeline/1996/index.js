@@ -2,7 +2,7 @@ import { Gift } from "react-feather"
 import { DateEntry, Notes, TimelineEntry } from "../Entry"
 
 export function Year1996() {
-  const dob = new Date("07/12/1996")
+  const dob = new Date("12/07/1996")
   const monthDiff = Date.now() - dob.getTime()
   const ageDate = new Date(monthDiff)
   const year = ageDate.getUTCFullYear()
