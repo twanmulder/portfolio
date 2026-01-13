@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import Book from "../components/Book"
 import Footer from "../components/Footer"
 
-import Twan from "../assets/twan_transparent.png"
+import Twan from "../assets/twan-trans.png"
 import ButtonAccent from "../assets/ButtonAccent"
 
 import { Star, Twitter } from "react-feather"

@@ -1,4 +1,4 @@
-import Twan from "../assets/twan_transparent.png"
+import Twan from "../assets/twan-trans.png"
 import { Linkedin } from "react-feather"
 
 export default function Contact() {
@@ -8,10 +8,10 @@ export default function Contact() {
       <article style={{ background: "linear-gradient(45deg, #0037ff, #0088ff)" }} className="flex flex-col justify-between p-8 mx-auto text-white shadow-2xl md:items-center md:p-12 rounded-3xl bg-blue-550 md:flex-row">
         <div className="max-w-lg">
           <p className="mb-8 text-5xl font-bold">
-            I'm looking for
-            <br /> a new role!
+            Always open
+            <br /> to a chat!
           </p>
-          <p>I'm looking to apply my skills with modern web development technologies (such as React, TypeScript, and SASS) in a new role.</p>
+          <p>I'm looking to apply my skills with modern web development technologies (such as React, TypeScript, and SASS).</p>
           <p className="mt-2">Interested or want to get to know me a bit better?</p>
         </div>
         <div className="mt-8 md:mt-0">

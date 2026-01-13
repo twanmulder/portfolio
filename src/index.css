@@ -20,6 +20,10 @@
 }
 
 .btn {
+  @apply px-8 py-2 text-sm text-center transition-colors duration-200 bg-blue-550 border rounded-md text-white border-blue-550 hover:text-blue-550 hover:bg-white;
+}
+
+.btn-secondary {
   @apply px-8 py-2 text-sm text-center transition-colors duration-200 bg-white border rounded-md text-blue-550 border-blue-550 hover:text-white hover:bg-blue-550;
 }
 

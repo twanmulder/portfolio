@@ -18,7 +18,7 @@ export function Year2019() {
           <p>Responsible for creating dynamic, interactive, and animated display creatives using modern technologies such as HTML, CSS, JavaScript, Vue, React, and GSAP. Communicated between stakeholders, designers, and clients to create a fitting end result.</p>
         </Notes>
         <ButtonSet>
-          <a className="w-full md:w-auto btn" href="https://www.stormdigital.nl/" target="_blank" rel="noopener noreferrer">
+          <a className="w-full md:w-auto btn" href="https://newsroom.accenture.com/news/2019/accenture-interactive-expands-digital-marketing-services-in-the-netherlands-by-acquiring-storm-digital" target="_blank" rel="noopener noreferrer">
             <span>view website</span>
           </a>
         </ButtonSet>
