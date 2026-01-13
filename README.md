@@ -1,5 +1,3 @@
-# My personal portfolio website 😄
-
-Check it out over at:
+# Twan's Portfolio
 
 [www.twanmulder.netlify.app](https://twanmulder.netlify.app)
